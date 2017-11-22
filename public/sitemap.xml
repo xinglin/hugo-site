@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.cs.utah.edu/~xinglin/projects/small-project/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.cs.utah.edu/~xinglin/blog/great-papers/</loc>
     <lastmod>2015-12-25T00:00:00+00:00</lastmod>
   </url>
@@ -23,7 +18,7 @@
   </url>
   
   <url>
-    <loc>http://www.cs.utah.edu/~xinglin/projects/projects/</loc>
+    <loc>http://www.cs.utah.edu/~xinglin/publications/publications/</loc>
     <lastmod>2015-08-19T20:29:37-07:00</lastmod>
   </url>
   
@@ -113,15 +108,18 @@
   </url>
   
   <url>
-    <loc>http://www.cs.utah.edu/~xinglin/projects/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>http://www.cs.utah.edu/~xinglin/publications/</loc>
+    <lastmod>2015-08-19T20:29:37-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.cs.utah.edu/~xinglin/tags/projects/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>http://www.cs.utah.edu/~xinglin/services/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cs.utah.edu/~xinglin/services/services/</loc>
   </url>
   
   <url>
@@ -132,7 +130,7 @@
   
   <url>
     <loc>http://www.cs.utah.edu/~xinglin/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2015-12-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

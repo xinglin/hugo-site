@@ -23,13 +23,16 @@
     </item>
     
     <item>
-      <title>Projects</title>
+      <title>Publications</title>
       <link>http://www.cs.utah.edu/~xinglin/projects/projects/</link>
       <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
       
       <guid>http://www.cs.utah.edu/~xinglin/projects/projects/</guid>
-      <description>In this theme, it is possible to add sections like a Projects one for example. You can add plenty of articles about your projects and a presentation page that will be displayed before the list. All is modulable, if you don&amp;rsquo;t want something.
-A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005.</description>
+      <description>PhD Dissertation Using Similarity in Content and Access Patterns to Improve Space Efficiency and Performance in Storage Systems (slides)
+Peer-reviewed Papers Storage  Metadata Considered Harmful &amp;hellip; to Deduplication (slides)
+Xing Lin, Fred Douglis, Jim Li, Xudong Li, Robert Ricci, Stephen Smaldone, and Grant Wallace
+HotStorage 15: 7th USENIX Workshop on Hot Topics in Storage and File Systems, July 2015
+ Using Deduplicating Storage for Efficient Disk Image Deployment (slides)</description>
     </item>
     
   </channel>

@@ -6,21 +6,10 @@
     <description>Recent content on Xing Lin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Dec 2015 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.cs.utah.edu/~xinglin/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>A small project example : add yours !</title>
-      <link>http://www.cs.utah.edu/~xinglin/projects/small-project/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.cs.utah.edu/~xinglin/projects/small-project/</guid>
-      <description>Along with Ford Prefect, Dent barely escapes the Earth&amp;rsquo;s destruction as it is demolished to make way for a hyperspace bypass. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.
- He rather enjoys tea, but seems to have trouble obtaining it in the far reaches of the galaxy.
- In time, he learns how to fly and carves a niche for himself as a sandwich-maker.</description>
-    </item>
     
     <item>
       <title>Great Papers</title>
@@ -51,18 +40,21 @@ Provides a historial view of how we enter into NewSQL and did an excellent surve
       <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.cs.utah.edu/~xinglin/about/</guid>
-      <description>With this theme, it is possible to add small sections that only contains one page like this. It will automatically appears in the header, at the end.
-Along with Ford Prefect, Dent barely escapes the Earth&amp;rsquo;s destruction as it is demolished to make way for a hyperspace bypass. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.</description>
+      <description>My name is Xing Lin. I successfully defended my PhD dissertation on July 22nd, 2015! Currently, I am working in the Advanced Technology Group at NetApp.
+I was PHD student in the school of computing at the University of Utah. My advisor is Prof. Robert Ricci. I work as a research assistant in the FLUX research group. Before that, I got my Bachelor degree from College of Software, Nankai University, China in 2009.</description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>http://www.cs.utah.edu/~xinglin/projects/projects/</link>
+      <title>Publications</title>
+      <link>http://www.cs.utah.edu/~xinglin/publications/publications/</link>
       <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
       
-      <guid>http://www.cs.utah.edu/~xinglin/projects/projects/</guid>
-      <description>In this theme, it is possible to add sections like a Projects one for example. You can add plenty of articles about your projects and a presentation page that will be displayed before the list. All is modulable, if you don&amp;rsquo;t want something.
-A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005.</description>
+      <guid>http://www.cs.utah.edu/~xinglin/publications/publications/</guid>
+      <description>PhD Dissertation Using Similarity in Content and Access Patterns to Improve Space Efficiency and Performance in Storage Systems (slides)
+Peer-reviewed Papers Storage  Metadata Considered Harmful &amp;hellip; to Deduplication (slides)
+Xing Lin, Fred Douglis, Jim Li, Xudong Li, Robert Ricci, Stephen Smaldone, and Grant Wallace
+HotStorage 15: 7th USENIX Workshop on Hot Topics in Storage and File Systems, July 2015
+ Using Deduplicating Storage for Efficient Disk Image Deployment (slides)</description>
     </item>
     
     <item>
@@ -133,8 +125,7 @@ sudo virt-install -n vm1 -r 1024 --disk path=/mnt/qemu-imgs/vm1.qcow2,bus=virtio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.cs.utah.edu/~xinglin/home/</guid>
-      <description>This is the home page. It will display the blog section if there is one, and a text before.
-Hey ! Welcome to the Cocoa Enhanced theme. Here are some articles :</description>
+      <description>Hey ! Welcome to the Xing Lin&amp;rsquo;s home page. Here are some articles:</description>
     </item>
     
     <item>
@@ -147,6 +138,19 @@ Hey ! Welcome to the Cocoa Enhanced theme. Here are some articles :</description
  The MIT License (MIT)
 Copyright &amp;copy; 2015 Nishanth Shanmughamnishanth.gerrard@gmail.com
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>http://www.cs.utah.edu/~xinglin/services/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/services/services/</guid>
+      <description> Co-chair
+ IEEE Special Technical Community on Operating Systems, 2016 - 2018  Program Committees  USENIX ATC 2018 MSST 2017 MSST 2016  Reviewer  ACM Transactions on Storage IEEE Transactions on Computers
+ IEEE Transactions on Knowledge and Data Engineering
+ IEEE Internet Computing
+ IEEE Computer   </description>
     </item>
     
   </channel>
