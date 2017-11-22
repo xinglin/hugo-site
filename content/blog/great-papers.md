@@ -20,14 +20,14 @@ them. Here is a list of them.
 
     *Provides a historial view of how we enter into NewSQL and did an excellent survey of state-of-art NewSQL Databases*  
 
-1. CAFTL: A Content-Aware Flash Translation Layer Enhancing the Lifespan of Flash Memory based Solid State Drives  
-
 2. NV-Tree: Reducing Consistency Cost for NVM-based Single Level Systems  
 
-   *Excellent analysis of overhead in keeping B+ tree consistent, followed by
+    *Excellent analysis of overhead in keeping B+ tree consistent, followed by
     a clear presentation of the proposed solution.*  
 
 3. The Multi-Queue Replacement Algorithm for Second Level Buffer Caches  
 
-   *Excellent analysis of re-use distance in second-level cache, to motivate their cache design*
+    *Excellent analysis of re-use distance in second-level cache, to motivate their cache design*
+
+1. CAFTL: A Content-Aware Flash Translation Layer Enhancing the Lifespan of Flash Memory based Solid State Drives  
 
