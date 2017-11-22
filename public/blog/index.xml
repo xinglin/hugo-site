@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Xing Lin</title>
+    <link>http://www.cs.utah.edu/~xinglin/blog/</link>
+    <description>Recent content in Blog on Xing Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 25 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.cs.utah.edu/~xinglin/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Great Papers</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/great-papers/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/great-papers/</guid>
+      <description>There are some papers that are so well written that I really enjoyed reading them. Here is a list of them.
+ BlueCache: A Scalable Distributed Flash-based Key-value Store
+The system design is very clear from the paper. Learned a lot about its index and data store part.
+ What&amp;rsquo;s Really New with NewSQL?
+Provides a historial view of how we enter into NewSQL and did an excellent survey of state-of-art NewSQL Databases</description>
+    </item>
+    
+    <item>
+      <title>NV-Tree: Reducing Consistency Cost for NVM-based Single Level Systems</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/nv-tree-reducing-consistency-cost-for-nvm-based-single-level-systems/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/nv-tree-reducing-consistency-cost-for-nvm-based-single-level-systems/</guid>
+      <description>This paper introduces a new B+ tree variation that is optimized for NVM by reducing consistency cost from memory fence and cacheline flush operations.
+ Consistency is guaranteed only for leaf nodes. Internal nodes are re-built from leaf nodes. Elements in leaf nodes are not sorted. A log-structure is used for leaf nodes to remove the need for frequent synchronization. Only appends are added to a leaf node. This also increases concurrency.</description>
+    </item>
+    
+    <item>
+      <title>Reflection After Dissertation Defense</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/reflection-after-dissertation-defense/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/reflection-after-dissertation-defense/</guid>
+      <description>After six years in the PhD program, since August 2009, I finally defended my dissertation today. I feel grateful that I finally make it. I do think I am one of the luck ones: I have a really nice adviser and he gives me strong support to do research in areas which I am interested in. I feel grateful for all the help I have received from my advisor, committee members, office mates and co-workers.</description>
+    </item>
+    
+    <item>
+      <title>Sketch Data Structures</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/sketch-data-structures/</link>
+      <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/sketch-data-structures/</guid>
+      <description>Tonight, I went to attend a local meetup event. The talk was given by a faculty from my own department, Jeff Phillips, an assistant professor working in the area of big data analysis. The topic of his talk is about sketch data structure - data structures which uses a much smaller amount of memory to summarize the represented data.This is a cool technique and I am very interested to learn more.</description>
+    </item>
+    
+    <item>
+      <title>KVM Notes</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/kvm-notes/</link>
+      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/kvm-notes/</guid>
+      <description>List storage pools
+virsh pool-list --details
+ List all volumes for a pool
+vol-list --details POOLNAME
+ To create a Qemu guest with a image in qcow2 format, we need to first create a storage pool first.
+virsh pool-define-as --name qcow2 --type dir --target /mnt/qemu-img
+virsh pool-start qcow2
+ To create a Qemu guest with bridged network
+sudo virt-install -n vm1 -r 1024 --disk path=/mnt/qemu-imgs/vm1.qcow2,bus=virtio,size=5,format=qcow2 -c /mnt/sda4/ubuntu-12.04.5-desktop-amd64.iso --network bridge=virbr0 --graphics vnc,listen=0.</description>
+    </item>
+    
+    <item>
+      <title>Proposal Defense</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/proposal-defense/</link>
+      <pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/proposal-defense/</guid>
+      <description>I did my PhD proposal denfense yesterday and now I am one more step closer to finish it. It took a week to just prepare the talk. The talk was long and have 45 slides. However, there are only about 8 slides for each project, since there are 4 projects. The talk lasts about 45 minutes. Because it is so long, everytime I practiced it, I almost lost my voice after I finished.</description>
+    </item>
+    
+    <item>
+      <title>Clone a Single KVM/qemu Virtual Machine</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/clone-a-single-kvm/qemu-virtual-machine/</link>
+      <pubDate>Wed, 26 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/clone-a-single-kvm/qemu-virtual-machine/</guid>
+      <description>I am working on virtual machine cloning for security testing for the TCloud project. We are looking for an efficient and transparent virtual machine cloning technique that has minimal impact on the virtual machine to be cloned. After some investigation, we found that KVM supports live snapshot for both memory and disk state while Xen4.4 currently does not support this feature yet but could be patched to do live snapshot for memory state easily.</description>
+    </item>
+    
+    <item>
+      <title>Trade-off Between Accuracy and Runtime Overhead</title>
+      <link>http://www.cs.utah.edu/~xinglin/blog/trade-off-between-accuracy-and-runtime-overhead/</link>
+      <pubDate>Wed, 26 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.utah.edu/~xinglin/blog/trade-off-between-accuracy-and-runtime-overhead/</guid>
+      <description>During the weekly technical forum within the NetApp ATG group, a team member presented the trip report for OSDI &amp;lsquo;14 this year. In his talk, he mentioned a paper that pushed me to think more in this line. The paper is about how to estimate the working set of a workload, using less memory and runs much faster. The only related work that dealt with the same problem was proposed more than 10 years ago and in that work, the authors tried to get the exact working set size, with a very high demand for memory and runtime.</description>
+    </item>
+    
+  </channel>
+</rss>
