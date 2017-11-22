@@ -8,7 +8,7 @@ title = "Services"
   * USENIX ATC 2018
   * MSST 2017
   * MSST 2016
-* Reviewer
+* Journals
   * ACM Transactions on Storage
   * IEEE Transactions on Computers  
   * IEEE Transactions on Knowledge and Data Engineering  
