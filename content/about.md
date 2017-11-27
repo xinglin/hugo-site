@@ -5,10 +5,10 @@ title = "About"
 
 My name is Xing Lin. I successfully defended my PhD dissertation on July 22nd, 2015! Currently, I am working in the [Advanced Technology Group][atg] at NetApp.  
 
-I was a PHD student in the school of computing at the University of Utah. My advisor is Prof. [Robert Ricci][Robert-Ricci]. I work as a research assistant in the FLUX research group. Before that, I got my Bachelor degree from College of Software, Nankai University, China in 2009. I am interested in file systems, deduplicating storage systems, SSDs and distributed storage systems. The theme of my PhD research is to improve space efficiency of storage systems. This includes improving compression with Migratory Compression ([FAST14][fast14]), improving deduplication by separating metadata from data ([HotStorage15][hotstorage15]) and using deduplication to store disk images for network testbeds ([TridentCom15][tridentcom15]).
+I was a PHD student in the school of computing at the University of Utah. My advisor is Prof. [Robert Ricci][Robert-Ricci]. I worked as a research assistant in the FLUX research group, for six years. Before that, I got my Bachelor degree from College of Software, Nankai University, China in 2009. I am interested in file systems, deduplicating storage systems, SSDs and distributed storage systems. The theme of my PhD research is to improve space efficiency of storage systems. This includes improving compression with Migratory Compression ([FAST14][fast14]), improving deduplication by separating metadata from data ([HotStorage15][hotstorage15]) and using deduplication to store disk images for network testbeds ([TridentCom15][tridentcom15]).
 
 
-I have done two internships with [Fred Douglis][fred] at the Advanced Development Team, EMC Core Technologies Division and one internship with 
+I did two internships with [Fred Douglis][fred] at the Advanced Development Team, EMC Core Technologies Division and one internship with 
 [Gokul Soundararajan][gokul] and Jingxin Feng at the Advanced Technology Group, NetApp.
 
 <!-- * External reviewer  

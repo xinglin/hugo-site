@@ -10,36 +10,31 @@ title = "Publications"
 
 ### Storage
 1. [Metadata Considered Harmful ... to Deduplication][hotstorage15] ([slides][hotstorage15-slides])  
-Xing Lin, Fred Douglis, Jim Li, Xudong Li, Robert Ricci, Stephen Smaldone, and Grant Wallace  
+**Xing Lin**, Fred Douglis, Jim Li, Xudong Li, Robert Ricci, Stephen Smaldone, and Grant Wallace  
 HotStorage 15: 7th USENIX Workshop on Hot Topics in Storage and File Systems, July 2015  
 
 2. [Using Deduplicating Storage for Efficient Disk Image Deployment][tridentcom15] ([slides][tridentcom15-slides])   
-Xing Lin, Mike Hibler, Eric Eide, and Robert Ricci     
+**Xing Lin**, Mike Hibler, Eric Eide, and Robert Ricci     
 TridentCom 15: 10th International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities, June 2015  
 
 3. [Migratory Compression: Coarse-grained Data Reordering to Improve Compressibility][mc-paper] ([slides][mc-slides])([video][mc-video])  
-Xing Lin, Guanlin Lu, Fred Douglis, Philip Shilane, and Grant Wallace  
+**Xing Lin**, Guanlin Lu, Fred Douglis, Philip Shilane, and Grant Wallace  
 FAST 14: Proceedings of the 12th USENIX Conference on File and Storage Technologies, Feb. 2014  
   
 4. [Towards Fair Sharing of Block Storage in a Multi-tenant Cloud][hotcloud12-paper] ([slides][hotcloud12-slides]) ([video][hotcloud12-video])  
-Xing Lin, Yun Mao, Feifei Li, Robert Ricci  
+**Xing Lin**, Yun Mao, Feifei Li, Robert Ricci  
 HotCloud 12: 4th USENIX Workshop on Hot Topics in Cloud Computing, June 2012  
 
 ### Computer Architecture
 5. [Refining the Utility Metric for Utility-Based Cache Partitioning][wddd11-paper] ([slides][wddd11-slides])  
-Xing Lin, and Rajeev Balasubramonian  
+**Xing Lin**, and Rajeev Balasubramonian  
 WDDD 11: 9th Annual Workshop on Duplicating, Deconstructing, and
 Debunking, in conjunction with the 38th International Symposium on Computer Architecture (ISCA-38), June 2011.
 
 ### Cloud Security
 6. [POTASSIUM: Penetration Testing as a Service][socc15]   
-Richard Li, Dallin Abendroth, Xing Lin, Yuankai Guo, Hyun-wook Baek, Eric Eide, Robert Ricci, Jacobus Van der Merwe   
+Richard Li, Dallin Abendroth, **Xing Lin**, Yuankai Guo, Hyun-wook Baek, Eric Eide, Robert Ricci, Jacobus Van der Merwe   
 SOCC 15: ACM Symposium on Cloud Computing, August 2015
-
-## Posters  
-1. [High-performance Disk Imaging With Deduplicated Storage][sosp11-summary] ([poster][sosp11-poster])  
-Raghuveer Pullakandam, Xing Lin, Mike Hibler, Eric Eide, Robert Ricci  
-SOSP 11: 23rd ACM Symposium on Operating Systems Principles, Oct. 2011
 
 For a complete list, please see my [Google Scholar](http://scholar.google.com/citations?user=hXf2D_wAAAAJ "Scholar") profile.
 
