@@ -1,12 +1,19 @@
 +++
 author = "Xing Lin"
-title = "Great Papers"
+title = "Great Books and Papers"
 description = ""
 tags = [
     "papers",
+    "books",
 ]
 date = "2015-12-25"
 +++
+
+## Books  
+1. How not to be wrong, written by a mathematician  
+2. Thinking, fast and slow  
+
+## Papers
 
 There are some papers that are so well written that I really enjoyed reading
 them. Here is a list of them. 
