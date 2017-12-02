@@ -10,8 +10,8 @@ date = "2015-12-25"
 +++
 
 ## Books  
-1. How not to be wrong, written by a mathematician  
-2. Thinking, fast and slow  
+1. *HOW NOT TO BE WRONG*, Jordan Ellenberg, Professor of Mathematics at the University of Wisconsin-Madison  
+2. *THINKING, FAST AND SLOW*, Daniel Kahneman, Professor of Psychology Emeritus at Princeton University  
 
 ## Papers
 
