@@ -6,9 +6,13 @@ title = "Publications"
 ## PhD Dissertation  
 [Using Similarity in Content and Access Patterns to Improve Space Efficiency and Performance in Storage Systems][phd-thesis] ([slides][phd-slides])
 
-## Peer-reviewed Papers  
+## Conference Papers  
 
 ### Storage
+5. Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems  
+Haryadi S. Gunawi (University of Chicago), Riza O. Suminto, Russell Sears (Pure Storage), Casey Golliher, Swaminathan Sundararaman (Parallel Machines), **Xing Lin** (NetApp), Tim Emami, Weiguang Sheng (Huawei), Nematollah Bidokhti, Caitie McCaffrey (Twitter), Gary Grider (Los Alamos National Laboratory), Parks M. Fields, Kevin Harms (Argonne National Laboratory), Robert B. Ross, Andree Jacobson (New Mexico Consortium), Robert Ricci (University of Utah), Kirk Webb, Peter Alvaro (University of California, Santa Cruz), Mingzhe Hao (University of Chicago), Huaicheng Li, H. Birali Runesha  
+FAST 18: 16th USENIX Conference on File and Storage Technologies, Feb. 2018  
+
 1. [Metadata Considered Harmful ... to Deduplication][hotstorage15] ([slides][hotstorage15-slides])  
 **Xing Lin**, Fred Douglis, Jim Li, Xudong Li, Robert Ricci, Stephen Smaldone, and Grant Wallace  
 HotStorage 15: 7th USENIX Workshop on Hot Topics in Storage and File Systems, July 2015  
@@ -19,7 +23,7 @@ TridentCom 15: 10th International Conference on Testbeds and Research Infrastruc
 
 3. [Migratory Compression: Coarse-grained Data Reordering to Improve Compressibility][mc-paper] ([slides][mc-slides])([video][mc-video])  
 **Xing Lin**, Guanlin Lu, Fred Douglis, Philip Shilane, and Grant Wallace  
-FAST 14: Proceedings of the 12th USENIX Conference on File and Storage Technologies, Feb. 2014  
+FAST 14: 12th USENIX Conference on File and Storage Technologies, Feb. 2014  
   
 4. [Towards Fair Sharing of Block Storage in a Multi-tenant Cloud][hotcloud12-paper] ([slides][hotcloud12-slides]) ([video][hotcloud12-video])  
 **Xing Lin**, Yun Mao, Feifei Li, Robert Ricci  
