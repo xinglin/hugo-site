@@ -10,7 +10,7 @@ title = "Publications"
 
 ### Storage
 5. Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems  
-Haryadi S. Gunawi (University of Chicago), Riza O. Suminto, Russell Sears (Pure Storage), Casey Golliher, Swaminathan Sundararaman (Parallel Machines), **Xing Lin** (NetApp), Tim Emami, Weiguang Sheng (Huawei), Nematollah Bidokhti, Caitie McCaffrey (Twitter), Gary Grider (Los Alamos National Laboratory), Parks M. Fields, Kevin Harms (Argonne National Laboratory), Robert B. Ross, Andree Jacobson (New Mexico Consortium), Robert Ricci (University of Utah), Kirk Webb, Peter Alvaro (University of California, Santa Cruz), Mingzhe Hao (University of Chicago), Huaicheng Li, H. Birali Runesha  
+Haryadi S. Gunawi and Riza O. Suminto, University of Chicago; Russell Sears and Casey Golliher, Pure Storage; Swaminathan Sundararaman, Parallel Machines; **Xing Lin** and Tim Emami, NetApp; Weiguang Sheng and Nematollah Bidokhti, Huawei; Caitie McCaffrey, Twitter; Gary Grider and Parks M. Fields, Los Alamos National Laboratory; Kevin Harms and Robert B. Ross, Argonne National Laboratory; Andree Jacobson, New Mexico Consortium; Robert Ricci and Kirk Webb, University of Utah; Peter Alvaro, University of California, Santa Cruz, Mingzhe Hao, Huaicheng Li, and H. Birali Runesha, University of Chicago  
 FAST 18: 16th USENIX Conference on File and Storage Technologies, Feb. 2018  
 
 1. [Metadata Considered Harmful ... to Deduplication][hotstorage15] ([slides][hotstorage15-slides])  
