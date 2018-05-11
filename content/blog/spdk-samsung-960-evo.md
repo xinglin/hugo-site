@@ -1,6 +1,6 @@
 +++
 author = "Xing Lin"
-title = "Performance Measurements of Samsung 960 EVO NVMe SSD"
+title = "SPDK on Samsung 960 EVO NVMe SSD"
 description = ""
 tags = [
     "SPDK",
