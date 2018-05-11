@@ -64,13 +64,13 @@ Fio output:
         lat (usec)   : 100=0.01%, 250=0.01%, 1000=0.01%
         cpu          : usr=100.01%, sys=0.07%, ctx=11458, majf=0, minf=3110
         IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
-            submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
-            complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
-            issued rwt: total=18026026,0,0, short=0,0,0, dropped=0,0,0
-            latency   : target=0, window=0, percentile=100.00%, depth=1
+        submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+        complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+        issued rwt: total=18026026,0,0, short=0,0,0, dropped=0,0,0
+        latency   : target=0, window=0, percentile=100.00%, depth=1
         Run status group 0 (all jobs):
         READ: bw=587MiB/s (615MB/s), 587MiB/s-587MiB/s (615MB/s-615MB/s), io=68.8GiB (73.8GB), run=120000-120000msec
-        
+
 * Linux block device on Intel Optane SSD
 
     xing@atg-s-holder:~/w/spdk/examples/nvme/fio_plugin$ sudo ~/w/fio/fio example_config-nvme.fio
