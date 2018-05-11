@@ -8,11 +8,9 @@ tags = [
 date = "2018-05-10"
 +++
 
-Today, I started to play with Intel SPDK with a 250GB Samsung 960 EVO NVMe SSD. 
-I was thinking that using SPDK might lead to better performance, than through traditional block device interface. 
-However, using fio with 4KiB random read requests at the queue depth equal to 1, as it turned out, the difference is rather small.
+Finally got some time to test out Intel Optane SSD with SPDK. Here are some numbers. 
 
-# Optane # 
+# Intel Optane SSD  
 | Metric | SPDK    | /dev/nvme1n1 |
 |--------|---------|-------------|
 | IOPS   | 150 K  | 66.1 K      |
@@ -21,6 +19,8 @@ However, using fio with 4KiB random read requests at the queue depth equal to 1,
 | lat    | 6.35 usec| 14.32 usec|
 
 slat, clat and lat are average submission latency, submission to IO completion latency and total IO latency. 
+
+Fio output:
 
     xing@atg-s-holder:~/w/spdk/examples/nvme/fio_plugin$ sudo LD_PRELOAD=/home/xing/w/spdk/examples/nvme/fio_plugin/fio_plugin /home/xing/w/fio/fio /home/xing/w/spdk/examples/nvme/fio_plugin/example_config.fio
     test: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=spdk, iodepth=1
@@ -60,6 +60,3 @@ slat, clat and lat are average submission latency, submission to IO completion l
         Run status group 0 (all jobs):
         READ: bw=587MiB/s (615MB/s), 587MiB/s-587MiB/s (615MB/s-615MB/s), io=68.8GiB (73.8GB), run=120000-120000msec
 
-## Tips
-*  Dependencies to install, in order to compile SPDK in debian 8  
-        ``sudo apt-get install libnuma-dev uuid-dev libaio-dev libcunit1-dev``  
