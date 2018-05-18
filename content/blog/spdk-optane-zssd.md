@@ -8,7 +8,7 @@ tags = [
 date = "2018-05-10"
 +++
 
-Finally got some time to test out Intel Optane SSD and Samsung ZSSD with SPDK. Once again, I compared performance numbers from SPDK with Linux block device. Here are some numbers. 
+Finally got some time to test out Intel Optane SSD and Samsung ZSSD with SPDK. Once again, I compared performance numbers from SPDK with Linux block device. Here are some numbers. The experiments were run in a Ubuntu14.04 server and we tested 4KiB random read performance.
 
 # Intel Optane SSD  
 | Metric | SPDK    | /dev/nvme1n1 |
