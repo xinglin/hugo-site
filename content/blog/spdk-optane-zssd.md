@@ -32,6 +32,7 @@ clat: the time between submission to the kernel and when the IO is complete
 lat: total IO latency   
 
 Fio output:
+
 * SPDK on Intel Optane SSD
 
         xing@atg-s-holder:~/w/spdk/examples/nvme/fio_plugin$ sudo LD_PRELOAD=/home/xing/w/spdk/examples/nvme/fio_plugin/fio_plugin /home/xing/w/fio/fio /home/xing/w/spdk/examples/nvme/fio_plugin/example_config.fio
