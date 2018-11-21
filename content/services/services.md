@@ -5,8 +5,8 @@ title = "Services"
 * Co-chair  
   * IEEE Special Technical Community on Operating Systems, 2016 - 2018
 * Program Committees
+  * [USENIX ATC 2019][atc19]
   * [USENIX ATC 2018][atc18]
-  * [SDDCS 2018][sddcs2018] (publication chair)
   * [MSST 2017][msst17]
   * [MSST 2016][msst16]
 * Journals
@@ -18,5 +18,6 @@ title = "Services"
 
 [sddcs2018]: https://sddcs.github.io/2018/sddcs2018.html
 [atc18]: https://www.usenix.org/conference/atc18
+[atc19]: https://www.usenix.org/conference/atc19
 [msst17]: http://storageconference.us/2017/
 [msst16]: http://storageconference.us/2016/

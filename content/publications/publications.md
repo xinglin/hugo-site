@@ -12,46 +12,54 @@ title = "Publications"
 5. [Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems][fast18]  
 [[bibtex][fast18-bib]]  
 Haryadi S. Gunawi and Riza O. Suminto, University of Chicago; Russell Sears and Casey Golliher, Pure Storage; Swaminathan Sundararaman, Parallel Machines; **Xing Lin** and Tim Emami, NetApp; Weiguang Sheng and Nematollah Bidokhti, Huawei; Caitie McCaffrey, Twitter; Gary Grider and Parks M. Fields, Los Alamos National Laboratory; Kevin Harms and Robert B. Ross, Argonne National Laboratory; Andree Jacobson, New Mexico Consortium; Robert Ricci and Kirk Webb, University of Utah; Peter Alvaro, University of California, Santa Cruz, Mingzhe Hao, Huaicheng Li, and H. Birali Runesha, University of Chicago  
-FAST 18: 16th USENIX Conference on File and Storage Technologies, Feb. 2018  
+*FAST 18: 16th USENIX Conference on File and Storage Technologies, Feb. 2018*  
 
 1. [Metadata Considered Harmful ... to Deduplication][hotstorage15]  
 [[slides][hotstorage15-slides] :: [bibtex][hotstorage15-bib]]  
 **Xing Lin**, Fred Douglis, Jim Li, Xudong Li, Robert Ricci, Stephen Smaldone, and Grant Wallace  
-HotStorage 15: 7th USENIX Workshop on Hot Topics in Storage and File Systems, July 2015  
+*HotStorage 15: 7th USENIX Workshop on Hot Topics in Storage and File Systems, July 2015*  
 
 2. [Using Deduplicating Storage for Efficient Disk Image Deployment][tridentcom15]  
 [[slides][tridentcom15-slides] :: [bibtex][tridentcom15-bib]]   
 **Xing Lin**, Mike Hibler, Eric Eide, and Robert Ricci     
-TridentCom 15: 10th International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities, June 2015  
+*TridentCom 15: 10th International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities, June 2015*  
 
 3. [Migratory Compression: Coarse-grained Data Reordering to Improve Compressibility][mc-paper]  
 [[slides][mc-slides] :: [video][mc-video] :: [bibtex][fast14-bib]]  
 **Xing Lin**, Guanlin Lu, Fred Douglis, Philip Shilane, and Grant Wallace  
-FAST 14: 12th USENIX Conference on File and Storage Technologies, Feb. 2014  
+*FAST 14: 12th USENIX Conference on File and Storage Technologies, Feb. 2014*  
   
 4. [Towards Fair Sharing of Block Storage in a Multi-tenant Cloud][hotcloud12-paper]  
 [[slides][hotcloud12-slides] :: [video][hotcloud12-video] :: [bibtex][hotcloud12-bib]]  
 **Xing Lin**, Yun Mao, Feifei Li, Robert Ricci  
-HotCloud 12: 4th USENIX Workshop on Hot Topics in Cloud Computing, June 2012  
+*HotCloud 12: 4th USENIX Workshop on Hot Topics in Cloud Computing, June 2012*  
 
 ### Computer Architecture
 5. [Refining the Utility Metric for Utility-Based Cache Partitioning][wddd11-paper]  
 [[slides][wddd11-slides] :: [bibtex][wddd11-bibtex]]  
 **Xing Lin**, and Rajeev Balasubramonian  
-WDDD 11: 9th Annual Workshop on Duplicating, Deconstructing, and
-Debunking, in conjunction with the 38th International Symposium on Computer Architecture (ISCA-38), June 2011.
+*WDDD 11: 9th Annual Workshop on Duplicating, Deconstructing, and
+Debunking, in conjunction with the 38th International Symposium on Computer Architecture (ISCA-38), June 2011*
 
 ### Cloud Security
 6. [POTASSIUM: Penetration Testing as a Service][socc15]  
 [[bibtex][socc15-bib]]   
 Richard Li, Dallin Abendroth, **Xing Lin**, Yuankai Guo, Hyun-wook Baek, Eric Eide, Robert Ricci, Jacobus Van der Merwe   
-SOCC 15: ACM Symposium on Cloud Computing, August 2015
+*SOCC 15: ACM Symposium on Cloud Computing, August 2015*
+
+## Journal papers
+1. [Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems][tos18]  
+[[bibtex][tos18-bib]]  
+Haryadi S. Gunawi and Riza O. Suminto, University of Chicago; Russell Sears and Casey Golliher, Pure Storage; Swaminathan Sundararaman, Parallel Machines; **Xing Lin** and Tim Emami, NetApp; Weiguang Sheng and Nematollah Bidokhti, Huawei; Caitie McCaffrey, Twitter; Deepthi Srinivasan	and Biswaranjan Panda,	Nutanix; Andrew Baptist, IBM; Gary Grider and Parks M. Fields, Los Alamos National Laboratory; Kevin Harms and Robert B. Ross, Argonne National Laboratory; Andree Jacobson, New Mexico Consortium; Robert Ricci and Kirk Webb, University of Utah; Peter Alvaro, University of California, Santa Cruz, H. Birali Runesha, Mingzhe Hao, and Huaicheng Li, University of Chicago  
+*ACM Transactions on Storage, Volume 14 Issue 3, October 2018, Article No. 23*  
 
 For a complete list, please see my [Google Scholar](http://scholar.google.com/citations?user=hXf2D_wAAAAJ "Scholar") profile.
 
 [phd-thesis]: http://www.cs.utah.edu/~xinglin/papers/Xing-thesis.pdf
 [phd-slides]: http://www.cs.utah.edu/~xinglin/papers/defense-slides.pdf
 
+[tos18]: https://doi.org/10.1145/3242086
+[tos18-bib]: ../papers/bibtex/tos18.bib
 [fast18]: ../papers/fast18.pdf
 [fast18-bib]: ../papers/bibtex/fast18.bib
 
