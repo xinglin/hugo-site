@@ -10,9 +10,9 @@ date = "2018-04-12"
 +++
 
 0. Update packages  
-    	
+	
 		sudo apt-get update
-		
+	
 1. Install php7. The default php coming with Ubuntu 14 is 5.5.9 while hotCRP prefers 5.6 and later. 
 	1. Install the `software-properties-common` package to get the `add-apt-repository` command.  
 		
