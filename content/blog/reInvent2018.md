@@ -16,6 +16,13 @@ I attended the AWS ReInvent at Las Vegas the week after Thanksgiving. It was a g
 ** Elastic graphic / Elastic Inference: add GPU on-demand to normal EC2 instances, only for graphic or inference tasks 
 ** 100 Gpbs NIC: c5n instances
 
+* S3 storage: 
+** Intelligent tiering: automatically migrate objects from S3 standard to S3 infrequent access, to save customer S3 storage cost
+** Glacier deep archive: a tape replacement solution. Even cheaper than Glacier. 
+
+* AWS DataSync Service: migrate data from on-premise NFS server to S3/EFS. Need to deply a VM at on-premise datacenter to run the DataSync agent.
+
+
 * New Database services
 ** AWS Quantum Ledger Database (QLDB): to store immutable, and cryptographically verifiable transaction logs where there is a central trusted authority.  
 ** AWS Timestream: time series database
@@ -34,6 +41,21 @@ I attended the AWS ReInvent at Las Vegas the week after Thanksgiving. It was a g
 
 * AWS Managed Blockchain
 * AWS Managed Kafka
+* AWS forcast: time series forecasting
+* AWS personalize: real-time personalization and recommendation
+* AWS outposts: AWS hardware installed at on-premise datacenters; running AWS software; consistent management/use experience
+
+
+* Machine Learning
+Three layers of AI software stack (from top to bottom)
+** AI Services: TextToSpeed, etc
+** ML Services: Sagemaker
+** ML frameworks: TensorFlow, MXNet, and pyTorch
+
+** SageMake Groundtruth: provides auto labelling or human to add tags to datasets; For auto labelling, one can set the confidence level: it will only set labels when the confidence from the algorithm is higher than the threshold. human label: mechanical trunk; third party; or your friends. 
+** AWS Marketplace for machine learning: a place to pick up/sell machine learning packages.
+** SageMake Reforcement Learning: provides RL models.
+** SageMaker Neo: open-source compiler to compile a machine model for different architectures (TPU/GPU/Intel CPU/ARM, etc.)
 
 
 
