@@ -20,7 +20,7 @@ I attended the AWS ReInvent at Las Vegas the week after Thanksgiving. It was a g
 ** Intelligent tiering: automatically migrate objects from S3 standard to S3 infrequent access, to save customer S3 storage cost
 ** Glacier deep archive: a tape replacement solution. Even cheaper than Glacier. 
 
-* AWS DataSync Service: migrate data from on-premise NFS server to S3/EFS. Need to deply a VM at on-premise datacenter to run the DataSync agent.
+* AWS DataSync Service: migrate data between on-premise NFS server and S3/EFS. Need to deply a VM at on-premise datacenter to run the DataSync agent. Mentioned use of compression and multi-part PUTs to improve the transfer performance. Audiences also asked the support of Object store/SMB/HDFS as another source.  
 
 
 * New Database services
