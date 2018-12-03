@@ -10,8 +10,14 @@ date = "2018-12-03"
 
 I attended the AWS ReInvent at Las Vegas the week after Thanksgiving. It was a great week there, learning AWS technologies while also having fun. The keynotes given by AWS CEO and CTO were always exciting: they covered important new services that were launched during this event. Other sessions shared best practices in using AWS services and infrastructure. They also had music bands playing live music at the site and provided great lunches and snacks during the morning and afternoon breaks. Besides, we can come and pick up a swag every day. This year, more than 50,000 people attended the conference and you can see lots of people walking around. This is by far the largest conference I have ever attended and I was amazed by how well they managed to organize it. 
 
+* Computing services
+** Support for ARM processors: A1 instances. Good for scale-out application and bring cost saving (~45%)
+** V100 GPUs: P3 instances with 8 NVIDIA Tesla V100 GPUs. 
+** Elastic graphic / Elastic Inference: add GPU on-demand to normal EC2 instances, only for graphic or inference tasks 
+** 100 Gpbs NIC: c5n instances
+
 * New Database services
-** AWS Quantum Ledger Database (QLDB): to store immutable records 
+** AWS Quantum Ledger Database (QLDB): to store immutable, and cryptographically verifiable transaction logs where there is a central trusted authority.  
 ** AWS Timestream: time series database
 
 * AWS Lambda:
