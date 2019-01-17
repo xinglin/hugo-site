@@ -1,6 +1,6 @@
 +++
 author = "Xing Lin"
-title = "AWS re:Invent tidbits"
+title = "AWS re:Invent 2018 tidbits"
 description = ""
 tags = [
     "conference",
@@ -67,7 +67,12 @@ date = "2018-12-07"
     * < 1.8 GB: single core
     * > 1.8 GB: 2 cores
 
-# misc
+# AWS RedShift
+ * Column data is stored as 1 MB immutable blocks
+ * Blocks are encoded with 1 of 12 encodings.
+ * Zone map contains min/max values for each block. Used to eliminate unnessary IOs.
+
+# Misc
 * [choose boring technology][boring-tech]
 * [How We Massively Reduced Our AWS Lambda Bill with Go][go-bill]
 
