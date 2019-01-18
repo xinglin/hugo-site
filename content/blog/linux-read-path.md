@@ -10,7 +10,82 @@ tags = [
 date = "2019-01-16"
 +++
 
-[A tour of the Linux VFS][vfs]
+In Linux, when a file is opened by a process, its file object will be added to the process control block (struct task_struct). The process control block has a pointer, struct files_struct* files, to keep track of all opened files. Within the files_struct, there exists struct fdtable, storing file objects for all file descriptors. A file descriptor is an index into this file object array of type struct file. Each file object (struct file) has a pointer to a file operations object (struct file_operations), to invoke file system specific operations for that file. 
+
+When a read() is called from the process for a file descriptor, it will invoke the sys_read(), which calls the read() operation for that file object (file->f_op->read(...)).  
+
+```
+
+struct task_struct {
+	...
+	
+	/* Open file information: */
+	struct files_struct		*files;
+};
+
+/*
+ * Open file table structure
+ */
+struct files_struct {
+  /*
+   * read mostly part
+   */
+	atomic_t count;
+	bool resize_in_progress;
+	wait_queue_head_t resize_wait;
+
+	struct fdtable __rcu *fdt;
+	struct fdtable fdtab;
+  /*
+   * written part on a separate cache line in SMP
+   */
+	spinlock_t file_lock ____cacheline_aligned_in_smp;
+	unsigned int next_fd;
+	unsigned long close_on_exec_init[1];
+	unsigned long open_fds_init[1];
+	unsigned long full_fds_bits_init[1];
+	struct file __rcu * fd_array[NR_OPEN_DEFAULT];
+};
+
+struct fdtable {
+	unsigned int max_fds;
+	struct file __rcu **fd;      /* current fd array */
+	unsigned long *close_on_exec;
+	unsigned long *open_fds;
+	unsigned long *full_fds_bits;
+	struct rcu_head rcu;
+};
+
+struct file {
+	union {
+		struct llist_node	fu_llist;
+		struct rcu_head 	fu_rcuhead;
+	} f_u;
+	struct path		f_path;
+	struct inode		*f_inode;	/* cached value */
+	const struct file_operations	*f_op;
+
+	/*
+	 * Protects f_ep_links, f_flags.
+	 * Must not be taken from IRQ context.
+	 */
+	spinlock_t		f_lock;
+	enum rw_hint		f_write_hint;
+	atomic_long_t		f_count;
+	unsigned int 		f_flags;
+	fmode_t			f_mode;
+	struct mutex		f_pos_lock;
+	loff_t			f_pos;
+	struct fown_struct	f_owner;
+	const struct cred	*f_cred;
+	struct file_ra_state	f_ra;
+
+	...
+} __randomize_layout
+  __attribute__((aligned(4)));	/* lest something weird decides that 2 is OK */
+
+
+```
 
 ```
 ext2_file_read_iter(): ext2_file_operations.read_iter
