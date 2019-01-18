@@ -1,6 +1,6 @@
 +++
 author = "Xing Lin"
-title = "Read Path in Linux Kernel"
+title = "Read syscall implementation in Linux Kernel"
 description = "Read path in the Linux kernel"
 tags = [
     "engineering",
@@ -36,7 +36,7 @@ ksys_read(fd, buf, count);
 	else
 		return -EINVAL;
 
-/* ext2 does not define read() but defines read_iter(). */
+/* Take ext2 as an example. ext2 does not define read() but defines read_iter(). */
 const struct file_operations ext2_file_operations = {
 	.llseek		= generic_file_llseek,
 	.read_iter	= ext2_file_read_iter,
@@ -57,7 +57,10 @@ const struct file_operations ext2_file_operations = {
 new_sync_read()
   call_read_iter(filp, &kiocb, &iter);
     file->f_op->read_iter(kio, iter);
+```
 
+# ext2_file_read_iter()
+```
 ext2_file_read_iter(): ext2_file_operations.read_iter
     generic_file_read_iter()
         generic_file_buffered_read()
@@ -84,6 +87,7 @@ const struct address_space_operations ext2_aops = {
 	.error_remove_page	= generic_error_remove_page,
 };
 
+/* The IO request is submitted to the block layer by calling mpage_bio_submit(). */
 ext2_readpages()
     mpage_readpages()
         mpage_bio_submit()
