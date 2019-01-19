@@ -92,15 +92,16 @@ new_sync_read()
 # ext2_file_read_iter()
 ```
 ext2_file_read_iter(): ext2_file_operations.read_iter
-    generic_file_read_iter()
-        generic_file_buffered_read()
-            page_cache_sync_readahead()
-                force_page_cache_readahead()
-                    __do_page_cache_readahead()
-                        __page_cache_alloc()
-                        read_pages()
-                            mapping->a_ops->readpages(filp, mapping, pages, nr_pages);
-                            or mapping->a_ops->readpage(filp, page);
+  generic_file_read_iter()
+    generic_file_buffered_read()
+      find_get_page()
+      page_cache_sync_readahead()
+      or page_cache_async_readahead()
+        ondemand_readahead()
+          __do_page_cache_readahead()
+            read_pages()
+              mapping->a_ops->readpages(filp, mapping, pages, nr_pages);
+              or mapping->a_ops->readpage(filp, page);
 
 /* ext2 defines both readpage() and readpages(). */
 const struct address_space_operations ext2_aops = {
