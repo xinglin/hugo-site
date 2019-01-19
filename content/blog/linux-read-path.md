@@ -10,6 +10,36 @@ tags = [
 date = "2019-01-16"
 +++ 
 
+# stack trace for ext2_readpages() in ext2
+```
+[   84.037457] Call Trace:
+[   84.037458]  dump_stack+0x46/0x5b
+[   84.037460]  ext2_readpages+0x3e/0x90
+[   84.037464]  read_pages+0x71/0x1a0
+[   84.037470]  ? __do_page_cache_readahead+0x1c9/0x1e0
+[   84.037472]  __do_page_cache_readahead+0x1c9/0x1e0
+[   84.037474]  ondemand_readahead+0x171/0x2b0
+[   84.037478]  ? pagecache_get_page+0x30/0x2c0
+[   84.037481]  ? __kernel_text_address+0xe/0x30
+[   84.037483]  generic_file_read_iter+0x875/0xda0
+[   84.037412]  ext2_file_read_iter+0x4c/0xe0
+[   84.037488]  new_sync_read+0x12e/0x1d0
+[   84.037490]  vfs_read+0x91/0x130
+[   84.037492]  ksys_read+0x52/0xc0
+[   84.037494]  do_syscall_64+0x4f/0x100
+[   84.037496]  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+
+[   84.037379] Call Trace:
+[   84.037405]  dump_stack+0x46/0x5b
+[   84.037412]  ext2_file_read_iter+0x4c/0xe0
+[   84.037419]  new_sync_read+0x12e/0x1d0
+[   84.037426]  vfs_read+0x91/0x130
+[   84.037428]  ksys_read+0x52/0xc0
+[   84.037431]  do_syscall_64+0x4f/0x100
+[   84.037438]  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+
+```
+
 # read/write syscall definitions
 read/write syscalls are defined in fs/read_write.c, as following. 
 ```
