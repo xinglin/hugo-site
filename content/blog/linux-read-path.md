@@ -10,6 +10,9 @@ tags = [
 date = "2019-01-16"
 +++ 
 
+### Interactions among vfs, page cache, and ext2 on serving a read request
+![](../sysread.png)
+
 # stack trace for ext2_readpages() in ext2
 ```
 [   84.037457] Call Trace:

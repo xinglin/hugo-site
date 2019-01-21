@@ -13,3 +13,8 @@ Ideas come from two sources: talking to real users with real problems and then t
 the ideas and the rubber meets the road and not the sky. The second source is to bounce possibly good (or bad) ideas off colleages that will challenge them. 
 In summary, the best chance for generating a good idea is to spend time in the real world and find an enviroment where you will be intellectually challenged. 
 
+## Influential papers
+1. The design and implementation of ingres. 
+2. [The implementation of postgres][postgres]
+
+[postgres]: http://db.cs.berkeley.edu/papers/ERL-M90-34.pdf
