@@ -9,7 +9,8 @@ title = "Publications"
 ## Conference Papers  
 
 ### Storage
-6. SS-CDC: A Two-stage Parallel Content-Defined Chunking for Deduplicating Backup Storage [*To appear*]  
+6. [SS-CDC: A Two-stage Parallel Content-Defined Chunking for Deduplicating Backup Storage][systor19] [*To appear*]  
+[[bibtex][systor19-bib]]   
 Fan Ni, **Xing Lin**, Song Jiang  
 *SYSTOR 19: The 12th ACM International Systems and Storage Conference*
 
@@ -61,6 +62,8 @@ For a complete list, please see my [Google Scholar](http://scholar.google.com/ci
 
 [phd-thesis]: http://www.cs.utah.edu/~xinglin/papers/Xing-thesis.pdf
 [phd-slides]: http://www.cs.utah.edu/~xinglin/papers/defense-slides.pdf
+[systor19]: ../papers/systor19-final.pdf
+[systor19-bib]: ../papers/bibtex/systor19.bib
 
 [tos18]: https://doi.org/10.1145/3242086
 [tos18-bib]: ../papers/bibtex/tos18.bib
