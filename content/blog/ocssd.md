@@ -10,11 +10,12 @@ tags = [
 date = "2019-08-13"
 +++
 
-1. In Linux pblk implementation, a line corresponds to a chunk which is one erase block. A LUN is a PU. A group is a channel. 
+- In Linux pblk implementation, a line corresponds to a chunk which is one erase block. A LUN is a PU. A group is a channel. 
 
-2. Eventually, pblk calls pblk_submit_read() and pblk_submit_write() for reads/writes to the device. 
+- Eventually, pblk calls pblk_submit_read() and pblk_submit_write() for reads/writes to the device. 
 
-3. Read code path (from the media) in pblk
+- Read code path (from the media) in pblk  
+
 ```
 /* pblk-read.c */
 
@@ -27,7 +28,8 @@ pblk_submit_read()
       dev->ops->submit_io(dev, rqd);
 ```
 
-4. Write code path in pblk
+- Write code path in pblk
+
 ```
 pblk_write_to_cache() {
 
@@ -76,8 +78,9 @@ pblk_submit_write(struct pblk* pblk, int *secs_left)
       dev->ops->submit_io(dev, rqd);
 ```
 
-5. Garbage Collection code path in pblk
+- Garbage Collection code path in pblk
 Erase operations are done during writes (when flushing the write buffer to the media).  
+
 ```
 /* pblk-gc.c */
 int pblk_gc_init(struct pblk *pblk)
@@ -124,7 +127,8 @@ pblk_gc_writer_ts()
     pblk_update_map_gc();
 ```
 
-6. Scratch space
+- Scratch space
+
 ```
 /* pblk-init.c */
 

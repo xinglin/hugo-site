@@ -20,9 +20,9 @@ date = "2019-08-13"
 
 The flags are:
 
-p    enables the pr_debug() callsite.
-f    Include the function name in the printed message
-l    Include line number in the printed message
-m    Include module name in the printed message
-t    Include thread ID in messages not generated from interrupt context
-_    No flags are set. (Or'd with others on input)
+		p    enables the pr_debug() callsite.
+		f    Include the function name in the printed message
+		l    Include line number in the printed message
+		m    Include module name in the printed message
+		t    Include thread ID in messages not generated from interrupt context
+		_    No flags are set. (Or'd with others on input)
