@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:xinglin/xinglin.github.io.git
 	branch = master
+[submodule "themes/cocoa-eh"]
+	path = themes/cocoa-eh
+	url = https://github.com/mtn/cocoa-eh-hugo-theme.git
+	branch = master
