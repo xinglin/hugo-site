@@ -4,5 +4,5 @@
 	branch = master
 [submodule "themes/cocoa-eh"]
 	path = themes/cocoa-eh
-	url = https://github.com/mtn/cocoa-eh-hugo-theme.git
+	url = https://github.com/xinglin/cocoa-eh-hugo-theme.git
 	branch = master
