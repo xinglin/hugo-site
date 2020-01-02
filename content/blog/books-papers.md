@@ -13,6 +13,9 @@ date = "2015-12-25"
 1. *HOW NOT TO BE WRONG*, Jordan Ellenberg, Professor of Mathematics at the University of Wisconsin-Madison  
 2. *THINKING, FAST AND SLOW*, Daniel Kahneman, Professor of Psychology Emeritus at Princeton University  
 
+3. *China's Economy*, Arthur R. Kroeber
+
+
 ## Papers
 
 There are some papers that are so well written that I really enjoyed reading

@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-Hey ! Welcome to my page. I have completed my PhD study and now work as a researcher at NetApp. 
+Welcome to my page. I have completed my PhD study and now work as a researcher at NetApp. 
 I am interested in the following areas: data deduplication, compression, distributed storage, solid state drives, and key-value stores. 
 
 In my spare time, I like reading books (especially in history), hiking around in the local area, and nice food. 
