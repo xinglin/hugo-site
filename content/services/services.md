@@ -5,6 +5,7 @@ title = "Services"
 * Co-chair  
   * IEEE Special Technical Community on Operating Systems, 2016 - 2018
 * Program Committees
+  * [USENIX HotEdge 2020][hotedge2020]
   * [USENIX ATC 2019][atc19]
   * [USENIX ATC 2018][atc18]
   * [MSST 2017][msst17]
@@ -17,6 +18,7 @@ title = "Services"
   * IEEE Internet Computing  
   * IEEE Computer
 
+[hotedge2020]: https://www.usenix.org/conference/hotedge20
 [sddcs2018]: https://sddcs.github.io/2018/sddcs2018.html
 [atc18]: https://www.usenix.org/conference/atc18
 [atc19]: https://www.usenix.org/conference/atc19

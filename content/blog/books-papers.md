@@ -21,7 +21,7 @@ date = "2015-12-25"
 There are some papers that are so well written that I really enjoyed reading
 them. Here is a list of them.
 
-6. Optimizing Space Amplification in RocksDB  
+1. Optimizing Space Amplification in RocksDB  
 
     *This paper provides a great introduction on LSM-tree, how RocksDB is used as the storage engine for 
     MySQL and some statistics of three LSM-tree based systems used in production in Facebook.*
