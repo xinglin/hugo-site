@@ -59,43 +59,43 @@ Haryadi S. Gunawi and Riza O. Suminto, University of Chicago; Russell Sears and 
 
 For a complete list, please see my [Google Scholar](http://scholar.google.com/citations?user=hXf2D_wAAAAJ "Scholar") profile.
 
-[phd-thesis]: http://www.cs.utah.edu/~xinglin/papers/Xing-thesis.pdf
-[phd-slides]: http://www.cs.utah.edu/~xinglin/papers/defense-slides.pdf
-[systor19]: ../papers/systor19-final.pdf
-[systor19-slides]: ../papers/systor19_slides.pptx
-[systor19-bib]: ../papers/bibtex/systor19.bib
+[phd-thesis]: https://github.com/xinglin/mypapers/blob/master/Xing-thesis.pdf
+[phd-slides]: https://github.com/xinglin/mypapers/blob/master/defense-slides.pdf
+[systor19]: https://github.com/xinglin/mypapers/blob/master/systor19-final.pdf
+[systor19-slides]: https://github.com/xinglin/mypapers/blob/master/systor19_slides.pptx
+[systor19-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/systor19.bib
 
 [tos18]: https://doi.org/10.1145/3242086
-[tos18-bib]: ../papers/bibtex/tos18.bib
-[fast18]: ../papers/fast18.pdf
-[fast18-bib]: ../papers/bibtex/fast18.bib
+[tos18-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/tos18.bib
+[fast18]: https://github.com/xinglin/mypapers/blob/master/fast18.pdf
+[fast18-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/fast18.bib
 
-[hotstorage15]: http://www.cs.utah.edu/~xinglin/papers/hotstorage_final.pdf
-[hotstorage15-slides]: http://www.cs.utah.edu/~xinglin/papers/hotstorage15-slides.pdf
-[hotstorage15-poster]: http://www.cs.utah.edu/~xinglin/papers/hotstorage15-poster.pdf
-[hotstorage15-bib]: ../papers/bibtex/hotstorage15.bib
+[hotstorage15]: https://github.com/xinglin/mypapers/blob/master/hotstorage_final.pdf
+[hotstorage15-slides]: https://github.com/xinglin/mypapers/blob/master/hotstorage15-slides.pdf
+[hotstorage15-poster]: https://github.com/xinglin/mypapers/blob/master/hotstorage15-poster.pdf
+[hotstorage15-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/hotstorage15.bib
 
-[tridentcom15]: http://www.cs.utah.edu/~xinglin/papers/tridentcom15_final.pdf
-[tridentcom15-slides]: http://www.cs.utah.edu/~xinglin/papers/tridentcom15_slides.pptx
-[tridentcom15-bib]: http://www.cs.utah.edu/~xinglin/papers/bibtex/tridentcom15.bib
+[tridentcom15]: https://github.com/xinglin/mypapers/blob/master/tridentcom15_final.pdf
+[tridentcom15-slides]: https://github.com/xinglin/mypapers/blob/master/tridentcom15_slides.pptx
+[tridentcom15-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/tridentcom15.bib
 
-[socc15]: http://www.cs.utah.edu/~xinglin/papers/socc15-preprint.pdf
-[socc15-bib]: ../papers/bibtex/socc15.bib
+[socc15]: https://github.com/xinglin/mypapers/blob/master/socc15-preprint.pdf
+[socc15-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/socc15.bib
 
-[mc-paper]: ../papers/fast14_final129.pdf
-[mc-slides]: ../papers/fast14_slides.pdf
-[fast14-bib]: ../papers/bibtex/fast14.bib
+[mc-paper]: https://github.com/xinglin/mypapers/blob/master/fast14_final129.pdf
+[mc-slides]: https://github.com/xinglin/mypapers/blob/master/fast14_slides.pdf
+[fast14-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/fast14.bib
 [mc-video]: https://www.usenix.org/conference/fast14/technical-sessions/presentation/lin
 
-[hotcloud12-paper]: ../papers/hotcloud12_final.pdf
-[hotcloud12-slides]: ../papers/hotcloud12_slides.pdf
-[hotcloud12-bib]: ../papers/bibtex/hotcloud12.bib
+[hotcloud12-paper]: https://github.com/xinglin/mypapers/blob/master/hotcloud12_final.pdf
+[hotcloud12-slides]: https://github.com/xinglin/mypapers/blob/master/hotcloud12_slides.pdf
+[hotcloud12-bib]: https://github.com/xinglin/mypapers/blob/master/bibtex/hotcloud12.bib
 [hotcloud12-video]: https://www.usenix.org/conference/hotcloud12/workshop-program/presentation/lin
 
-[wddd11-paper]: ../papers/wddd11_final.pdf
-[wddd11-slides]: ../papers/wddd11_slides.pdf
-[wddd11-bibtex]: ../papers/bibtex/wddd11.bib
+[wddd11-paper]: https://github.com/xinglin/mypapers/blob/master/wddd11_final.pdf
+[wddd11-slides]: https://github.com/xinglin/mypapers/blob/master/wddd11_slides.pdf
+[wddd11-bibtex]: https://github.com/xinglin/mypapers/blob/master/bibtex/wddd11.bib
 
-[sosp11-summary]: ../papers/sosp11_final.pdf
-[sosp11-poster]: ../papers/sosp11_poster.pdf
+[sosp11-summary]: https://github.com/xinglin/mypapers/blob/master/sosp11_final.pdf
+[sosp11-poster]: https://github.com/xinglin/mypapers/blob/master/sosp11_poster.pdf
 [nfs-connector]: http://www.netapp.com/us/media/tr-4382.pdf
