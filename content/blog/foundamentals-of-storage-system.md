@@ -9,8 +9,8 @@ date = "2020-06-14"
 +++
 
 # Caching 
-## LRU
-## ARC
+* LRU
+* ARC
 
 # File systems
 ## EXT filesystems
