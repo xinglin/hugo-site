@@ -13,18 +13,20 @@ date = "2020-06-14"
   * ARC
 
 # File systems
-## EXT filesystems
-## btrfs
+  * EXT filesystems
+  * btrfs
 
 # Data Reliability
-## RAID
-## Erasure coding
+  * RAID
+  * Erasure coding
 
 # Solid State Drive
-## FTL
+  * FTL
 
 # K/V stores
-## LevelDB/RocksDB
+  * LevelDB/RocksDB
 
 # Distributed Storage Systems
-## Ceph
+  * Ceph
+
+# Deduplication
