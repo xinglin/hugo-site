@@ -4,7 +4,7 @@ author = "Xing Lin"
 title = "Reflection After Dissertation Defense"
 description = ""
 tags = [
-    "PhD",
+    "PhD life",
 ]
 date = "2015-07-22"
 +++

@@ -3,7 +3,7 @@ author = "Xing Lin"
 title = "Proposal Defense"
 description = ""
 tags = [
-    "paper",
+    "phd life",
 ]
 date = "2014-12-19"
 +++

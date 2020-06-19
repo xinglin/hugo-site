@@ -3,7 +3,8 @@ author = "Xing Lin"
 title = "Sketch Data Structures"
 description = ""
 tags = [
-    "paper",
+    "technique",
+    "data summarization"
 ]
 date = "2015-06-09"
 +++
