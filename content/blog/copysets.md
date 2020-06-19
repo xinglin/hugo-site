@@ -33,9 +33,9 @@ data loss probability.
 * P: the number of permutations used, to generate the copysets. P = S/(R-1)
 
 # How it works  
-* Use permutations, P times, to generate copysets.  
-** Each copyset overlaps with another by only one node. 
-** The copysets covers all nodes equally, for load balancing.
+* Use permutations, P times, to generate copysets.
+  ** Each copyset overlaps with another by only one node.
+  ** The copysets covers all nodes equally, for load balancing.
 * Pick a random node in the cluster as the primary node. The other replicas can 
 be placed on the nodes of a randomly chosen copyset that contains the primary node.
 
