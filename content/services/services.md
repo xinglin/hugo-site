@@ -2,8 +2,7 @@
 title = "Services"
 +++
 
-* Co-chair  
-  * IEEE Special Technical Community on Operating Systems, 2016 - 2018
+
 * Program Committees
   * [ACM SOCC 2020][socc2020]
   * [USENIX HotEdge 2020][hotedge2020]
@@ -11,6 +10,7 @@ title = "Services"
   * [USENIX ATC 2018][atc18]
   * [MSST 2017][msst17]
   * [MSST 2016][msst16]
+* Co-chair for IEEE Special Technical Community on Operating Systems (STCOS), 2016 - 2018
 * Journals
   * ACM Transactions on Computer Systems (TOCS)
   * ACM Transactions on Storage
