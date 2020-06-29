@@ -10,6 +10,10 @@ tags = [
 date = "2020-06-28" 
 +++
 
+I really liked the paper. The idea is neat. The paper is also well written and 
+the design and the new idea is clearly presented. A very good paper to read and learn from
+on how to write good papers.  
+
 # Summary
 The key idea is to convert random small writes into large sequential writes at the device driver. 
 This reduces data fragmentation and also reduces request handling overhead for the SSD, as 
