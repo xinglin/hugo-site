@@ -16,7 +16,7 @@ Fan Ni, **Xing Lin**, Song Jiang
 
 2. [Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems][fast18] 
 [[bibtex][fast18-bib]]  
-Haryadi S. Gunawi and many other collaborators 
+Haryadi S. Gunawi and many other collaborators  
 *FAST 18: The 16th USENIX Conference on File and Storage Technologies, Feb. 2018*  
 
 3. [Metadata Considered Harmful ... to Deduplication][hotstorage15] [[slides][hotstorage15-slides] :: [bibtex][hotstorage15-bib]]  
