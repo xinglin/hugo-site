@@ -16,7 +16,7 @@ Fan Ni, **Xing Lin**, Song Jiang
 
 2. [Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems][fast18] 
 [[bibtex][fast18-bib]]  
-Haryadi S. Gunawi and Riza O. Suminto, University of Chicago; Russell Sears and Casey Golliher, Pure Storage; Swaminathan Sundararaman, Parallel Machines; **Xing Lin** and Tim Emami, NetApp; Weiguang Sheng and Nematollah Bidokhti, Huawei; Caitie McCaffrey, Twitter; Gary Grider and Parks M. Fields, Los Alamos National Laboratory; Kevin Harms and Robert B. Ross, Argonne National Laboratory; Andree Jacobson, New Mexico Consortium; Robert Ricci and Kirk Webb, University of Utah; Peter Alvaro, University of California, Santa Cruz, Mingzhe Hao, Huaicheng Li, and H. Birali Runesha, University of Chicago  
+Haryadi S. Gunawi and many other collaborators 
 *FAST 18: The 16th USENIX Conference on File and Storage Technologies, Feb. 2018*  
 
 3. [Metadata Considered Harmful ... to Deduplication][hotstorage15] [[slides][hotstorage15-slides] :: [bibtex][hotstorage15-bib]]  
@@ -54,7 +54,7 @@ Richard Li, Dallin Abendroth, **Xing Lin**, Yuankai Guo, Hyun-wook Baek, Eric Ei
 ## Journal papers
 9. [Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems][tos18] 
 [[bibtex][tos18-bib]]  
-Haryadi S. Gunawi and Riza O. Suminto, University of Chicago; Russell Sears and Casey Golliher, Pure Storage; Swaminathan Sundararaman, Parallel Machines; **Xing Lin** and Tim Emami, NetApp; Weiguang Sheng and Nematollah Bidokhti, Huawei; Caitie McCaffrey, Twitter; Deepthi Srinivasan	and Biswaranjan Panda,	Nutanix; Andrew Baptist, IBM; Gary Grider and Parks M. Fields, Los Alamos National Laboratory; Kevin Harms and Robert B. Ross, Argonne National Laboratory; Andree Jacobson, New Mexico Consortium; Robert Ricci and Kirk Webb, University of Utah; Peter Alvaro, University of California, Santa Cruz, H. Birali Runesha, Mingzhe Hao, and Huaicheng Li, University of Chicago  
+Haryadi S. Gunawi and many other collaborators  
 *ACM Transactions on Storage, Volume 14 Issue 3, October 2018, Article No. 23*  
 
 For a complete list, please see my [Google Scholar](http://scholar.google.com/citations?user=hXf2D_wAAAAJ "Scholar") profile.
