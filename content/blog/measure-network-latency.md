@@ -49,4 +49,4 @@ To generate the configure file, we can run the autogen.sh script.
 We may also need to install texinfo package, to get the makeinfo tool. 
 
 # Reference
-* [Measuring network latency in the cloud]: https://cloud.google.com/blog/products/networking/using-netperf-and-ping-to-measure-network-latency
+* [Measuring network latency in the cloud](https://cloud.google.com/blog/products/networking/using-netperf-and-ping-to-measure-network-latency)
