@@ -34,9 +34,7 @@ a new packet is sent out immediately after the previous packet is received.
 
 netperf is another tool used for network performance testing as well. 
 By default, it sends out a request immediately after the previous one completes.
-One can use netperf to test TCP/UDP round-trip time.  
-It is probably the preferred tool to do latency measurement, than ping. 
-netperf shows the TCP RTT is 37 us for the same two servers where I used ping to test RTT. 
+One can use netperf to test TCP/UDP round-trip time.  It is probably the preferred tool to do latency measurement, than ping. netperf shows the TCP RTT is 37 us for the same two servers where I used ping to test RTT. 
 
 To use netperf, we need to first start netserver at one server. 
 Then, at the other server, start netperf to do the tests. 
