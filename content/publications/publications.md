@@ -27,36 +27,35 @@ Haryadi S. Gunawi and many other collaborators
 **Xing Lin**, Fred Douglis, Jim Li, Xudong Li, Robert Ricci, Stephen Smaldone, and Grant Wallace  
 *HotStorage 15: The 7th USENIX Workshop on Hot Topics in Storage and File Systems, July 2015*  
 
-4. [Using Deduplicating Storage for Efficient Disk Image Deployment][tridentcom15]  
+4. [POTASSIUM: Penetration Testing as a Service][socc15] 
+[[bibtex][socc15-bib]]   
+Richard Li, Dallin Abendroth, **Xing Lin**, Yuankai Guo, Hyun-wook Baek, Eric Eide, Robert Ricci, Jacobus Van der Merwe   
+*SOCC 15: ACM Symposium on Cloud Computing, August 2015*
+
+5. [Using Deduplicating Storage for Efficient Disk Image Deployment][tridentcom15]  
 [[slides][tridentcom15-slides] :: [bibtex][tridentcom15-bib]]   
 **Xing Lin**, Mike Hibler, Eric Eide, and Robert Ricci     
 *TridentCom 15: The 10th International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities, June 2015*  
 
-5. [Migratory Compression: Coarse-grained Data Reordering to Improve Compressibility][mc-paper] 
+6. [Migratory Compression: Coarse-grained Data Reordering to Improve Compressibility][mc-paper] 
 [[slides][mc-slides] :: [video][mc-video] :: [bibtex][fast14-bib]]  
 **Xing Lin**, Guanlin Lu, Fred Douglis, Philip Shilane, and Grant Wallace  
 *FAST 14: The 12th USENIX Conference on File and Storage Technologies, Feb. 2014*  
   
-6. [Towards Fair Sharing of Block Storage in a Multi-tenant Cloud][hotcloud12-paper]  
+7. [Towards Fair Sharing of Block Storage in a Multi-tenant Cloud][hotcloud12-paper]  
 [[slides][hotcloud12-slides] :: [video][hotcloud12-video] :: [bibtex][hotcloud12-bib]]  
 **Xing Lin**, Yun Mao, Feifei Li, Robert Ricci  
 *HotCloud 12: The 4th USENIX Workshop on Hot Topics in Cloud Computing, June 2012*  
 
-### Computer Architecture
-7. [Refining the Utility Metric for Utility-Based Cache Partitioning][wddd11-paper]  
+8. [Refining the Utility Metric for Utility-Based Cache Partitioning][wddd11-paper]  
 [[slides][wddd11-slides] :: [bibtex][wddd11-bibtex]]  
 **Xing Lin**, and Rajeev Balasubramonian  
 *WDDD 11: The 9th Annual Workshop on Duplicating, Deconstructing, and
 Debunking, in conjunction with the 38th International Symposium on Computer Architecture (ISCA-38), June 2011*
 
-### Cloud Security
-8. [POTASSIUM: Penetration Testing as a Service][socc15] 
-[[bibtex][socc15-bib]]   
-Richard Li, Dallin Abendroth, **Xing Lin**, Yuankai Guo, Hyun-wook Baek, Eric Eide, Robert Ricci, Jacobus Van der Merwe   
-*SOCC 15: ACM Symposium on Cloud Computing, August 2015*
 
 ## Journal papers
-9. [Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems][tos18] 
+1. [Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems][tos18] 
 [[bibtex][tos18-bib]]  
 Haryadi S. Gunawi and many other collaborators  
 *ACM Transactions on Storage, Volume 14 Issue 3, October 2018, Article No. 23*  
