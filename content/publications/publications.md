@@ -8,7 +8,6 @@ title = "Publications"
 
 ## Conference Papers  
 
-### Storage
 1. [SEFEE: Lightweight Storage Error Forecasting in Large Scale Enterprise Storage Systems](https://sc20.supercomputing.org/)  
 Amirhesam Yazdi, **Xing Lin**, Lei Yang, Feng Yan  
 *SC 2020: International Conference for High Performance Computing, Networking, Storage and Analysis*
