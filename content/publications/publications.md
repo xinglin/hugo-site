@@ -9,6 +9,10 @@ title = "Publications"
 ## Conference Papers  
 
 ### Storage
+10. [SEFEE: Lightweight Storage Error Forecasting in Large Scale Enterprise Storage Systems](https://sc20.supercomputing.org/)  
+Amirhesam Yazdi, **Xing Lin**, Lei Yang, Feng Yan  
+*SC 2020: International Conference for High Performance Computing, Networking, Storage and Analysis*
+
 1. [SS-CDC: A Two-stage Parallel Content-Defined Chunking for Deduplicating Backup Storage][systor19] 
 [[slides][systor19-slides] :: [bibtex][systor19-bib]]   
 Fan Ni, **Xing Lin**, Song Jiang  
