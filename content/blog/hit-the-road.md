@@ -9,9 +9,9 @@ tags = [
 date = "2020-08-23"
 +++
 
-Hit the Road is an iOS app for tracking personal exercises. 
+Hit the Road is an iOS app for tracking ourdoor exercises. 
 It can track walking, running, and biking.
-It is supposed to run on iPhones but not iPads or iWatchs. 
+It is supposed to run on iPhones, but not iPads or iWatchs. 
 
 # User Privacy
 
