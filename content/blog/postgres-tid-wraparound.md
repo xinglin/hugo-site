@@ -19,6 +19,11 @@ FrozenTransactionId is smaller than any normal transaction ID
 and thus these frozen rows are visible for all current
 and future transactions.  
 
+NOTE:  
+The requirement of a periodical vaccum process to set rows as frozen 
+(set TID to FrozenTransactionId), in order to handle TID wraparound 
+problem does not seem optimal/elegant. Is there any better way to handle it?
+
 ```
 /* ----------------
  *		Special transaction ID values
