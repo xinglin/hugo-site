@@ -17,7 +17,7 @@ integer value measuring the number of transactions),
 the vaccum process can mark its TID as FrozenTransactionId.
 FrozenTransactionId is smaller than any normal transaction ID
 and thus these frozen rows are visible for all current
-and future transactions.
+and future transactions.  
 
 ```
 /* ----------------
