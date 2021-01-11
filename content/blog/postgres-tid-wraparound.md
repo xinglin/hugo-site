@@ -8,6 +8,8 @@ tags = [
 date = "2020-12-17"
 +++
 
+**NOTE**: OpenGauss may fix this problem. 
+
 Three special values are reserved as special transaction IDs,
 including invalid, bootstrap and frozen transactions. 
 The rest values are used in a circular fashion. 
