@@ -14,6 +14,7 @@ It is surprised to come across several systems/services that happen to built on 
 | :------: | :--: |
 | AWS Redshift     | data warehousing | 
 | TimeScale     | time series database |
+| openGauss/GaussDB     | distributed relational db, by Huawei |
 
 * AWS Redshift: Redshift is a data warehousing service offered by AWS. It is built on postgreSQL, with a new columnar storage engine. The use of columnar storage is expected to provide better query performance and better compression. 
 
