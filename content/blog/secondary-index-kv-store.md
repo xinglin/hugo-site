@@ -38,7 +38,7 @@ To support secondary index based on the salary column, one could store `salary,p
 | 30000,Charlie| |
 | 40000,Alice| |
 
-* For both cases, the key/value pairs are sorted based on keys. Because keys are sorted, similar keys will be grouped together. Thus, *prefix compression*  is important to reduce space consumption when storing keys, as done in LevelDB (in LevelDB, for every N key-value pairs in an SSTable, the key for the first key-value pair is stored in complete while the keys for the rest key-value pairs are prefix-compressed based on the key before it. Each time a complete key is stored, it is called a restart point in LevelDB. Restart points enable quick binary search within an SSTable.). 
+* For both cases, the key/value pairs are sorted based on keys. Because keys are sorted, similar keys will be grouped together. Thus, **prefix compression**  is important to reduce space consumption when storing keys, as done in LevelDB (in LevelDB, for every N key-value pairs in an SSTable, the key for the first key-value pair is stored in complete while the keys for the rest key-value pairs are prefix-compressed based on the key before it. Each time a complete key is stored, it is called a restart point in LevelDB. Restart points enable quick binary search within an SSTable.). 
 * Since keys are sorted and nearby keys are similar, could we use a data structure such as trie to organize data within an SSTables? Maybe make sense when values are small. 
 
 Reference
