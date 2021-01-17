@@ -8,9 +8,9 @@ tags = [
 date = "2020-01-17"
 +++
 
-Key-value stores such as RocksDB have been used as the storage engine in several databases (MySQL/Mongo/Rockset/FoundationDB). A database typically requires support of secondary indexes. To support secondary index, a common approach people take is to store the secondary index as yet another key-value pairs. Let's take a look at the following example. 
+Key-value stores such as RocksDB have been used as the storage engine in several databases (MySQL/Mongo/Rockset/FoundationDB). A database typically requires support of secondary indexes. To support secondary index, a common approach is to store the secondary index as yet another key-value pairs. Let's take a look at the following example. 
 
-User table  
+Employee table  
 | userid (primary key) | salary | age |
 | :------: | :--: | :--:|
 |Alice | 40000 | 30 |
@@ -19,7 +19,7 @@ User table
 |David | 20000| 25|
 
 
-To store the user table, we can store each record using `tableName,primary_key/salary,age` as key/value pairs.
+To store the user table, we can store each record using `tableName,primary_key -> salary,age` as key/value pairs.
 
 | key | value |
 | :------: | :--:|
@@ -29,7 +29,7 @@ To store the user table, we can store each record using `tableName,primary_key/s
 | Employee,David| 20000,25|
 
 
-To support secondary index based on the salary column, one could store `salary,primary_key` as the key with an empty value into the key/value store (or set the value to be something that would be interesting for the use case). 
+To support secondary index based on the salary column, one could store `salary,primary_key` as the key with an empty value into the key/value store (or set the value to be something that would be interesting for the use case). This will ensure efficient search for employees with a particular amount of salary, as the key/value pairs are sorted by keys.
 
 | key | value |
 | :------: | :--:|
