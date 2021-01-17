@@ -5,7 +5,7 @@ description = ""
 tags = [
     "idea", "note", "key-value"
 ]
-date = "2020-01-17"
+date = "2021-01-17"
 +++
 
 Key-value stores such as RocksDB have been used as the storage engine in several databases (MySQL/Mongo/Rockset/FoundationDB). A database typically requires support of secondary indexes. To support secondary index, a common approach is to store the secondary index as yet another key-value pairs. Let's take a look at the following example. 
