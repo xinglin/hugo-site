@@ -3,7 +3,7 @@ author = "Xing Lin"
 title = "Postgres Handling Transaction ID Wrap Around"
 description = ""
 tags = [
-    "postgres",
+    "postgres", "idea"
 ]
 date = "2020-12-17"
 +++
