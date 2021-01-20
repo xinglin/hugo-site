@@ -13,7 +13,7 @@ The four properties that a transaction in the database world has are ACID: A sta
 | Property | Definition | Technique to achieve that property |
 | :------: | :--:|:--:|
 | Atomicity| A transaction either succeeds or fails as a single operation. | Undo log | 
-| Consistency | A database should start in a consistent state and end in another consistent state, after applying a transaction or transactions. | Undo log|
+| Consistency | A database should start in a consistent state and end in another consistent state, after applying a transaction or transactions. | Relies on the other three properties. |
 | Isolation | Each transaction should be executed as if it was the only transaction that is running. Transactions are isolated and are not aware of each other. Allowing concurrent transactions. | 2-phase locking or MVCC | 
 | Durability | Writes made to the database will survive system failures. | Redo log | 
 
