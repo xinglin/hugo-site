@@ -24,7 +24,17 @@ The purpose of transactions is to maintain data in the face of concurrent access
 >   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests a shared (respectively, exclusive) lock on the object.  
 >   Rule 2. All locks held by a transaction are released when the transaction is completed.
 >   
->   If two transactions access the same object, and one wants to modify it, their actions are effectively ordered serially·all actions of one of these transactions (the one that gets the lock on the common object first) are completed before (this lock is released and) the other transaction can proceed.
+>   If two transactions access the same object, and one wants to modify it, their actions are 
+>   effectively ordered serially: all actions of one of these transactions (the one that gets 
+>   the lock on the common object first) are completed before (this lock is released and) the 
+>   other transaction can proceed.
+>
+>   The recovery manager of a DBMS is responsible for ensuring transaction atomicity and 
+>   durability. It ensures atomicity by undoing the actions of transactions that do not commit, 
+>   and durability by making sure that all actions of committed transactions survive systenl 
+>   crashes, (e.g., a core dump caused by a bus error) and media failures (e.g., a disk is 
+>   corrupted).
+
 
 
 
