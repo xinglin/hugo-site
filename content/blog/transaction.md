@@ -9,6 +9,7 @@ date = "2020-09-27"
 +++
 
 The four properties that a transaction in the database world has are ACID: A stands for atomicity, C for consistency, I for isolation and D for durability. 
+The purpose of transactions is to maintain data in the face of concurrent access and system failures.
 
 | Property | Definition | Technique to achieve that property |
 | :------: | :--:|:--:|
@@ -16,6 +17,12 @@ The four properties that a transaction in the database world has are ACID: A sta
 | Consistency | A database should start in a consistent state and end in another consistent state, after applying a transaction or transactions. | Relies on the other three properties. |
 | Isolation | Each transaction should be executed as if it was the only transaction that is running. Transactions are isolated and are not aware of each other. Allowing concurrent transactions. | 2-phase locking or MVCC | 
 | Durability | Writes made to the database will survive system failures. | Redo log | 
+
+## Database Management Systems
+
+* Strict Two-Phase Locking (Strict 2PL)  
+>   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests a shared (respectively, exclusive) lock on the object.  
+>   Rule 2. All locks held by a transaction are released when the transaction is completed.
 
 Quota from Design Data-Intensive Applications book. 
 
