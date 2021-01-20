@@ -23,6 +23,10 @@ The purpose of transactions is to maintain data in the face of concurrent access
 * Strict Two-Phase Locking (Strict 2PL)  
 >   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests a shared (respectively, exclusive) lock on the object.  
 >   Rule 2. All locks held by a transaction are released when the transaction is completed.
+>   
+>   If two transactions access the same object, and one wants to modify it, their actions are effectively ordered serially·all actions of one of these transactions (the one that gets the lock on the common object first) are completed before (this lock is released and) the other transaction can proceed.
+
+
 
 Quota from Design Data-Intensive Applications book. 
 
