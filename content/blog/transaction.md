@@ -25,16 +25,17 @@ The purpose of transactions is to maintain data in the face of concurrent access
 >           a shared (respectively, exclusive) lock on the object.  
 >   Rule 2. All locks held by a transaction are released **when the transaction is completed**.
 >   
-* Two-Phase Locking (2PL)  
->   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests 
->           a shared (respectively, exclusive) lock on the object (same as strict 2PL).  
->   Rule 2. **A transaction cannot request additional locks once it releases any lock**.
->   
 >   If two transactions access the same object, and one wants to modify it, their actions are 
 >   effectively ordered serially: all actions of one of these transactions (the one that gets 
 >   the lock on the common object first) are completed before (this lock is released and) the 
 >   other transaction can proceed.
->
+
+* Two-Phase Locking (2PL)  
+>   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests 
+>           a shared (respectively, exclusive) lock on the object (same as strict 2PL).  
+>   Rule 2. **A transaction cannot request additional locks once it releases any lock**.
+
+* Recovery Manager  
 >   The recovery manager of a DBMS is responsible for ensuring transaction atomicity and 
 >   durability. It ensures atomicity by undoing the actions of transactions that do not commit, 
 >   and durability by making sure that all actions of committed transactions survive systenl 
@@ -46,9 +47,9 @@ The purpose of transactions is to maintain data in the face of concurrent access
 >   identifier as the key.  
 >   A lock table entry for an object -- which can be a page, a record, and so on, depending on the DBMS -- contains the following inforrnation: the number of transactions currently holding a. lock on the object (this can be more than one if the object is locked in shared mode), the nature of the lock (shared or exclusive), and a pointer to the queue of lock requests.
 
-Quota from Design Data-Intensive Applications book. 
+## Design Data-Intensive Applications book. 
 
-* Isolation is the property that provides guarantees in the concurrent accesses to data. Isolation is implemented by means of a concurrency control protocol. The simplest way is to make all readers wait until the writer is done, which is known as a read-write lock. Locks are known to create contention especially between long read transactions and update transactions. MVCC aims at solving the problem by keeping multiple copies of each data item. In this way, each user connected to the database sees a snapshot of the database at a particular instant in time. Any changes made by a writer will not be seen by other users of the database until the changes have been completed (or, in database terms: until the transaction has been committed.)
+>   Isolation is the property that provides guarantees in the concurrent accesses to data. Isolation is implemented by means of a concurrency control protocol. The simplest way is to make all readers wait until the writer is done, which is known as a read-write lock. Locks are known to create contention especially between long read transactions and update transactions. MVCC aims at solving the problem by keeping multiple copies of each data item. In this way, each user connected to the database sees a snapshot of the database at a particular instant in time. Any changes made by a writer will not be seen by other users of the database until the changes have been completed (or, in database terms: until the transaction has been committed.)
 
 [知乎link][acdlink]
 > ACD三个特性是通过Redo log（重做日志）和Undo log 实现的。 而隔离性是通过锁来实现的。  
