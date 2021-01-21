@@ -21,8 +21,14 @@ The purpose of transactions is to maintain data in the face of concurrent access
 ## Database Management Systems
 
 * Strict Two-Phase Locking (Strict 2PL)  
->   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests a shared (respectively, exclusive) lock on the object.  
->   Rule 2. All locks held by a transaction are released when the transaction is completed.
+>   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests 
+>           a shared (respectively, exclusive) lock on the object.  
+>   Rule 2. All locks held by a transaction are released **when the transaction is completed**.
+>   
+* Two-Phase Locking (2PL)  
+>   Rule 1. If a transaction T wants to read (respectively, modify) an object, it first requests 
+>           a shared (respectively, exclusive) lock on the object (same as strict 2PL).  
+>   Rule 2. **A transaction cannot request additional locks once it releases any lock**.
 >   
 >   If two transactions access the same object, and one wants to modify it, their actions are 
 >   effectively ordered serially: all actions of one of these transactions (the one that gets 
@@ -35,8 +41,10 @@ The purpose of transactions is to maintain data in the face of concurrent access
 >   crashes, (e.g., a core dump caused by a bus error) and media failures (e.g., a disk is 
 >   corrupted).
 
-
-
+* Lock Implementation in DBMS  
+>   The lock manager maintains a lock table, which is a hash table with the data object 
+>   identifier as the key.  
+>   A lock table entry for an object -- which can be a page, a record, and so on, depending on the DBMS -- contains the following inforrnation: the number of transactions currently holding a. lock on the object (this can be more than one if the object is locked in shared mode), the nature of the lock (shared or exclusive), and a pointer to the queue of lock requests.
 
 Quota from Design Data-Intensive Applications book. 
 
