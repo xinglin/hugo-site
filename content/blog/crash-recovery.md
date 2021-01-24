@@ -53,5 +53,5 @@ struct UpdateRec {
 >   Dirty page table: This table contains one entry for each dirty page in the buffer pool, that is, each page with changes not yet reflected on disk. The entry contains a field recLSN, which is the LSN of the first log record that caused the page to becorne dirty. Note that this LSN identifies the earliest log record that might have to be redone for this page during restart from a crash.
 
 ## Write-ahead log procotol
-> Before writing a page to disk, every update log record that describes a change to this page must be forced to stable storage. This is accomplished by forcing all log records up to and including the one with LSN equal to the pageLSN to stable storage before writing the page to disk.
-> the definition of a committed transaction is effectively 'a transaction all of whose log records including a commit record have been written to stable storage'.
+>   Before writing a page to disk, every update log record that describes a change to this page must be forced to stable storage. This is accomplished by forcing all log records up to and including the one with LSN equal to the pageLSN to stable storage before writing the page to disk.
+>   The definition of a committed transaction is effectively 'a transaction all of whose log records including a commit record have been written to stable storage'.
