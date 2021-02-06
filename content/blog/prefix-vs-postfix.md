@@ -66,6 +66,48 @@ _main:                                  ## @main
         retq
         .cfi_endproc
 ```
+For postfix operators, the compiler indeed stores another copy in rcx
+ and then assign it to j. We use one more register for postfix operators.
 
-As we can see from the assembly code, indeed, we avoid one copy by using prefix operators.
-I am now convinced! 
+```
+// program 2
+
+#include <iostream>
+int main() {
+        long i=0, j;
+        i++;
+        ++i;
+        return 0;
+}
+```
+
+```
+_main:                                  ## @main
+        .cfi_startproc
+## %bb.0:
+        pushq   %rbp
+        .cfi_def_cfa_offset 16
+        .cfi_offset %rbp, -16
+        movq    %rsp, %rbp
+        .cfi_def_cfa_register %rbp
+        xorl    %eax, %eax
+        movl    $0, -4(%rbp)
+        movq    $0, -16(%rbp)       // assign 0 to i
+        
+                                    // i++;
+        movq    -16(%rbp), %rcx     // move i from memory to rcx
+        addq    $1, %rcx            // increment rcx by 1
+        movq    %rcx, -16(%rbp)     // store rcx back to i
+
+                                    // ++i;
+        movq    -16(%rbp), %rcx
+        addq    $1, %rcx
+        movq    %rcx, -16(%rbp)
+
+        popq    %rbp
+        retq
+        .cfi_endproc
+```
+
+If we just increment a variable by itself, it seems the 
+generated code would be the same for both postfix and prefix operators. 
