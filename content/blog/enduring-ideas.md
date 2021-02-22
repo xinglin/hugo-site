@@ -1,6 +1,6 @@
 +++
 author = "Xing Lin"
-title = "Enduring Ideas/Techniques that are used today"
+title = "Enduring Ideas/Techniques that are still in use today"
 description = ""
 tags = [
     "techniques",
