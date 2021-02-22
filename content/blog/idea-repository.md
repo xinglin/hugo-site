@@ -3,7 +3,7 @@ author = "Xing Lin"
 title = "Idea Repository"
 description = ""
 tags = [
-    "ideas",
+    "idea",
 ]
 date = "2021-02-22"
 +++
