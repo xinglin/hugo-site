@@ -17,3 +17,7 @@ List of ideas to explore.
 * Key prefix compression in k/v store
     * Problem: in levelDB, it uses fixed-size key prefix compression. Can we do better than this? 
     * In Rockset/Foundationdb, secondary indexes are stored as <key, null> key/value pairs. This creates an opportunity that significant storage saving can be achieved if we can do a better key compression.
+
+* [Zoned namespace SSDs][zonedns]
+
+[zonedns]: http://zonedstorage.io/introduction/
