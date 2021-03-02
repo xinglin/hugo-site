@@ -2,10 +2,9 @@
 title = "Home"
 +++
 
-# <img src="https://xinglin.github.io/img/head.jpg" alt="Xing's head photo" width="128" height="128" align="left"/>
 
-![](./img/head.jpg =200x)
-<p>
+![head photo](/img/head.jpg =200x)
+
 Hi, my name is Xing Lin. I am a big data infrastructure engineer at Linkedin since 2021.
 Before that, I worked as a research software engineer 
 for 5+ years in the advanced technology group at NetApp.
@@ -15,7 +14,7 @@ I also did two internships with [Fred Douglis][fred] at the Advanced Development
 [Gokul Soundararajan][gokul] and Jingxin Feng at the Advanced Technology Group, NetApp.
 Even before that, I completed my Bachelor from the College of Software, Nankai University, China in 2009.
 I am interested in the following areas: big data systems, data deduplication, compression, distributed storage, solid state drives, and key-value stores.
-</p>
+
 
 In my spare time, I like reading books (especially history and biography), hiking around in the local area, and sampling nice food. 
 
