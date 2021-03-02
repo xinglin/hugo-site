@@ -14,7 +14,7 @@ Even before that, I completed my Bachelor from the College of Software, Nankai U
 I am interested in the following areas: big data systems, data deduplication, compression, distributed storage, solid state drives, and key-value stores.
 </p>
 
-In my spare time, I like reading books (especially history and biography), hiking around in the local area, and nice food. 
+In my spare time, I like reading books (especially history and biography), hiking around in the local area, and sampling nice food. 
 
 > The key is deliberative practice: not just doing it again and again, but challenging yourself with a task that is just beyond your current ability, trying it, analyzing your performance while and after doing it, and correcting any mistakes.     -- Peter Norvig
 
