@@ -11,8 +11,8 @@ Before that, I was a PHD student in the school of computing at the University of
 My advisor is Prof. [Robert Ricci][ricci]. 
 I also did two internships with [Fred Douglis][fred] at the Advanced Development Team, EMC Backup and Recovery System Division and one internship with 
 [Gokul Soundararajan][gokul] and Jingxin Feng at the Advanced Technology Group, NetApp.
-Even before that, I completed my Bachelor from the College of Software, Nankai University, China in 2009.
-I am interested in the following areas: big data systems, data deduplication, compression, distributed storage, solid state drives, and key-value stores.
+I completed my Bachelor from the College of Software, Nankai University, China in 2009.
+I am interested in the following areas: big data systems, data deduplication and compression, distributed storage, solid state drives, and key-value stores.
 
 In my spare time, I like reading books (especially history and biography), hiking around in the local area, and sampling nice food. 
 
