@@ -14,14 +14,19 @@ disableKinds = ["taxonomyTerm"]
 
 [permalinks]
 blog = "blog/:slug/"
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description = "Example blog"
 # copyright = "Copyright © 2015 Nishanth Shanmugham"
 # copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
-logofile = "img/Ulogo_1200px.png"
+#logofile = "img/Ulogo_1200px.png"
+logofile = ""
 faviconfile = "img/BlockU_redweb.png"
 highlightjs = true
 progressively = true
