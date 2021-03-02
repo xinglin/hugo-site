@@ -1,7 +1,7 @@
 +++
 title = "Home"
 +++
-<img src="head.jpg" alt="Xing's head photo" width="128" height="128" align="left">
+<img src="head.jpg" alt="Xing's head photo" width="128" height="128" align="left"/>
 <p>
 Hi, my name is Xing Lin. I am a big data infrastructure engineer at Linkedin since 2021.
 Before that, I worked as a research software engineer 
