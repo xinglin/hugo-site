@@ -4,6 +4,7 @@ title = "Home"
 
 
 ![head photo](/img/head.jpg =200x)
+![head photo](/img/head.jpg)
 
 Hi, my name is Xing Lin. I am a big data infrastructure engineer at Linkedin since 2021.
 Before that, I worked as a research software engineer 
