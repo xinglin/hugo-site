@@ -2,9 +2,9 @@
 title = "Home"
 +++
 
-<img src="https://xinglin.github.io/img/head.jpg" width="200" style="margin: 0px 10px 0px 0px;" alt="Xing's head photo" align="left"/>
+<img src="https://xinglin.github.io/img/head.jpg" width="200" style="margin: 0px 20px 0px 0px;" alt="Xing's head photo" align="left"/>
 
-testHi, my name is Xing Lin. I am a big data infrastructure engineer at Linkedin since 2021.
+Hi, my name is Xing Lin. I am a big data infrastructure engineer at Linkedin since 2021.
 Before that, I worked as a research software engineer 
 for 5+ years in the advanced technology group at NetApp.
 Before that, I was a PHD student in the school of computing at the University of Utah. 
