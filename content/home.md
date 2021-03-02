@@ -1,7 +1,7 @@
 +++
 title = "Home"
 +++
-<img src="head.jpg" alt="Xing's head photo" width="128" height="128" align="left"/>
+<img src="https://xinglin.github.io/img/head.jpg" alt="Xing's head photo" width="128" height="128" align="left"/>
 <p>
 Hi, my name is Xing Lin. I am a big data infrastructure engineer at Linkedin since 2021.
 Before that, I worked as a research software engineer 
@@ -11,10 +11,10 @@ My advisor is Prof. [Robert Ricci][ricci].
 I also did two internships with [Fred Douglis][fred] at the Advanced Development Team, EMC Backup and Recovery System Division and one internship with 
 [Gokul Soundararajan][gokul] and Jingxin Feng at the Advanced Technology Group, NetApp.
 Even before that, I completed my Bachelor from the College of Software, Nankai University, China in 2009.
-I am interested in the following areas: data deduplication, compression, distributed storage, solid state drives, and key-value stores.
+I am interested in the following areas: big data systems, data deduplication, compression, distributed storage, solid state drives, and key-value stores.
 </p>
 
-In my spare time, I like reading books (especially in history), hiking around in the local area, and nice food. 
+In my spare time, I like reading books (especially history and biography), hiking around in the local area, and nice food. 
 
 > The key is deliberative practice: not just doing it again and again, but challenging yourself with a task that is just beyond your current ability, trying it, analyzing your performance while and after doing it, and correcting any mistakes.     -- Peter Norvig
 
