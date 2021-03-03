@@ -4,13 +4,13 @@ title = "Home"
 
 <img src="https://xinglin.github.io/img/head.jpg" width="200" style="margin: 5px 15px -1px 0px;" alt="Xing's head photo" align="left"/>
 
-Hi, my name is Xing Lin. I am a big data infrastructure engineer at Linkedin since 2021.
-Before that, I worked as a research software engineer 
-for 5+ years in the advanced technology group at NetApp.
+Hi, my name is Xing Lin. 
+I am a big data infrastructure engineer at Linkedin since 2021.
+I was an ATG (Advanced Technology Group) engineer at NetApp between 2015 and 2020.
 Before that, I was a PHD student in the school of computing at the University of Utah. 
 My advisor is Prof. [Robert Ricci][ricci]. 
-I also did two internships with [Fred Douglis][fred] at the Advanced Development Team, EMC Backup and Recovery System Division and one internship with 
-[Gokul Soundararajan][gokul] and Jingxin Feng at the Advanced Technology Group, NetApp.
+I did two internships with [Fred Douglis][fred] in the Advanced Development Team, EMC Backup and Recovery System Division and one internship with 
+[Gokul Soundararajan][gokul] and Jingxin Feng in NetApp ATG.
 I completed my Bachelor from the College of Software, Nankai University, China in 2009.
 I am interested in the following areas: big data systems, data deduplication and compression, distributed storage, solid state drives, and key-value stores.
 
