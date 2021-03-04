@@ -8,6 +8,7 @@ tags = [
 date = "2021-03-01"
 +++
 
+* [LSM-tree survey][survey]
 * WiscKey: key/value separation
 * HashKV: store cold keys separately.
 * LSM-trie
@@ -22,6 +23,7 @@ date = "2021-03-01"
 * [Mutant][mutant]: decide which type of cloud disks to place SStables, based on access pattern.
 * [diff-index][diffindex]: use LSM-tree as secondary indexes.
 
+[survey]:https://arxiv.org/pdf/1812.07527.pdf
 [diffindex]:https://openproceedings.org/2014/conf/edbt/TanTTF14.pdf
 [mutant]:https://ymsir.com/papers/mutant-socc.pdf
 [skiptree]: https://ieeexplore.ieee.org/document/7569086
