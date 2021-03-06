@@ -3,7 +3,7 @@ author = "Xing Lin"
 title = "Key Value Systems"
 description = ""
 tags = [
-    "keyvalue",
+    "keyvalue","paper"
 ]
 date = "2021-03-01"
 +++
