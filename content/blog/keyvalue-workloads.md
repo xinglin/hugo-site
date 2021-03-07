@@ -22,19 +22,19 @@ date = "2021-03-05"
 | Workload | Description | Operation breakdown|
 | :------: | :--: | :-----------: | :-----------: |
 ## UDB
-    * Social graph data stored in MyRocks
-    * Get: 75%, Put: 20%  
-    * >75% of KV-pairs are Put only once.    
-    * Most of the start-keys of Iterators are used only once. The scan length of more than 60% of the Iterators is only 1 across all CFs.
+> Social graph data stored in MyRocks
+> Get: 75%, Put: 20%  
+> >75% of KV-pairs are Put only once.    
+> Most of the start-keys of Iterators are used only once. The scan length of more than 60% of the Iterators is only 1 across all CFs.
 
 ## ZippyDB
-    * Distributed KV store, mapping some metadata of an object to the object address in an object storage system
-    * 78% Get, 13% Put, 6% Delete, and 3% Iterator 
-    * For about 80% of the KV-pairs, Get requests only occur once. A very small portion of KV-pairs have very large read counts over the 24-hour period. 1% of the KV- pairs show more than 100 Get requests, and the Gets to these KV-pairs are about 50% of the total Gets that show strong localities. About 73% of the KV-pairs are Put only once, and fewer than 0.001% of the KV-pairs are Put more than 10 times. Put does not have as clear a locality as Get does. 
+> Distributed KV store, mapping some metadata of an object to the object address in an object storage system
+> 78% Get, 13% Put, 6% Delete, and 3% Iterator 
+> For about 80% of the KV-pairs, Get requests only occur once. A very small portion of KV-pairs have very large read counts over the 24-hour period. 1% of the KV- pairs show more than 100 Get requests, and the Gets to these KV-pairs are about 50% of the total Gets that show strong localities. About 73% of the KV-pairs are Put only once, and fewer than 0.001% of the KV-pairs are Put more than 10 times. Put does not have as clear a locality as Get does. 
 ## UP2X
-    * statistic counters of user activities for AI/ML prediction and interference
-    * merge (read-modify-write): 92.53%, 7.46% Get
-    * Merge and Get have wide distributions of access counts. Most KV pairs are Put only once.
+> statistic counters of user activities for AI/ML prediction and interference
+> merge (read-modify-write): 92.53%, 7.46% Get
+> Merge and Get have wide distributions of access counts. Most KV pairs are Put only once.
 
 ### UDB Request Distribution
 ![](../UDB-requests.png)
