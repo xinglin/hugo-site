@@ -19,8 +19,7 @@ date = "2021-03-05"
 | F  | read-modify-write workload |  user database, where user records are read and modified by the user or to record user activity.      | read: 50%, readmodifywrite: 50%|
 
 # RocksDB Workloads in Facebook [paper link][rocksdb@fb]
-| Workload | Description | Operation breakdown|
-| :------: | :--: | :-----------: | :-----------: |
+
 ## UDB
 > Social graph data stored in MyRocks  
 > Get: 75%, Put: 20%   
