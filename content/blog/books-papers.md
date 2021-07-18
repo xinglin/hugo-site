@@ -10,10 +10,11 @@ date = "2015-12-25"
 +++
 
 ## Books  
-1. *HOW NOT TO BE WRONG*, Jordan Ellenberg, Professor of Mathematics at the University of Wisconsin-Madison  
-2. *THINKING, FAST AND SLOW*, Daniel Kahneman, Professor of Psychology Emeritus at Princeton University  
-
-3. *China's Economy*, Arthur R. Kroeber
+* *A Philosophy of Software Design*, John Ousterhout, Professor at Stanford University  
+* *UNIX - A History and a Memorior*, Brian Kernighan, Professor at Princeton University  
+* *HOW NOT TO BE WRONG*, Jordan Ellenberg, Professor of Mathematics at the University of Wisconsin-Madison  
+* *THINKING, FAST AND SLOW*, Daniel Kahneman, Professor of Psychology Emeritus at Princeton University  
+* *China's Economy*, Arthur R. Kroeber
 
 
 ## Papers
@@ -21,6 +22,9 @@ date = "2015-12-25"
 There are some papers that are so well written that I really enjoyed reading
 them. Here is a list of them.
 
+1. In Search of an Understandable Consensus Algorithm  
+    *Decompose the consensus problem into multiple sub-problem and tackle each sub-problem individually*
+    
 1. Optimizing Space Amplification in RocksDB  
 
     *This paper provides a great introduction on LSM-tree, how RocksDB is used as the storage engine for 
