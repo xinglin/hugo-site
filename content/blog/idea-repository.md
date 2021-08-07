@@ -31,3 +31,6 @@ List of ideas to explore.
     * find an open-source implementation; modify and add support for batch lookup;
     * measure the batch lookup speedup compared with point lookup -> best result.
     * Integrate batch lookup into some systems, such as a KV store or a DB.
+
+* VectorZip  
+    Use AVX instruction to accelerate compression (zstd/lz4)
