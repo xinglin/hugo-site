@@ -11,6 +11,7 @@ date = "2015-12-25"
 
 ## Books  
 * *A Philosophy of Software Design*, John Ousterhout, Professor at Stanford University  
+* *The Innovator's Dilemma*, Clayton Christensen  
 * *UNIX - A History and a Memorior*, Brian Kernighan, Professor at Princeton University  
 * *HOW NOT TO BE WRONG*, Jordan Ellenberg, Professor of Mathematics at the University of Wisconsin-Madison  
 * *THINKING, FAST AND SLOW*, Daniel Kahneman, Professor of Psychology Emeritus at Princeton University  

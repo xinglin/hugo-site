@@ -21,3 +21,13 @@ List of ideas to explore.
 * [Zoned namespace SSDs][zonedns]
 
 [zonedns]: http://zonedstorage.io/introduction/
+
+* VectorBtree, VectorBloomFilter, VectorKV, VectorDB, VectorFS
+    Investigate how to levarage AVX extension instructions to accelerate a B/B+ tree index, certain operations in a KV store, a DB or a FS.
+
+    Execution plan: 
+    
+    * Understand how lookup works in an indexing data structure; determine whether we can easily do batch lookups; 
+    * find an open-source implementation; modify and add support for batch lookup;
+    * measure the batch lookup speedup compared with point lookup -> best result.
+    * Integrate batch lookup into some systems, such as a KV store or a DB.
