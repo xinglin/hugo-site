@@ -3,11 +3,17 @@
 # If a command fails then the deploy stops
 set -e
 
+if [ 0 == 0 ]; then
 echo "commit the huge source repo"
-git add content/blog
-msg="update blog content $(date)"
+msg="add content $(date)"
+if [ -n "$*" ]; then
+	msg="$*"
+fi
+git add content
 git commit -m "$msg"
 git push origin master
+
+fi
 
 printf "\033[0;32mDeploying hugo site to GitHub...\033[0m\n"
 
